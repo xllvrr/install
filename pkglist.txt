@@ -100,6 +100,7 @@ powertop
 python-qtconsole
 rambox-bin
 reaper-bin
+ripgrep
 safeeyes
 skanlite
 spaceship-prompt-git
