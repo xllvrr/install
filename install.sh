@@ -32,11 +32,14 @@ sudo make clean install
 # Step 4: Change Default Shell to Zsh
 chsh -s /usr/bin/zsh
 
-# Step 5: Setting Up Fcitx
+# Step 5: Install Python Stuff
+pip3 install --user pynvim flake8 autopep8 pylint
+
+# Step 6: Setting Up Fcitx
 sudo echo "export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
 export XMODIFIERS=@im=fcitx" >>  /etc/profile
 
-# Step 6: Reminders
+# Step 7: Reminders
 echo "Setup Insync, Joplin, Rambox, Thunderbird, Discord, Chromium, Steam, Stacer, Gufw, Deja Dup & Timeshift"
 echo "Key in Code for Reaper"
