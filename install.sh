@@ -33,7 +33,7 @@ sudo make clean install
 chsh -s /usr/bin/zsh
 
 # Step 5: Install Python Stuff
-pip3 install --user pynvim flake8 autopep8 pylint
+pip3 install --user pynvim flake8 autopep8 pylint mysql-connector
 
 # Step 6: Setting Up Fcitx
 sudo echo "export GTK_IM_MODULE=fcitx
