@@ -24,7 +24,7 @@ deja-dup
 dhclient
 dhcpcd
 discord
-dolphin-plugins
+dolphin
 downgrader-git
 ecryptfs-utils
 epson-inkjet-printer-escpr
@@ -77,6 +77,7 @@ memtest86+
 mhwd
 mkinitcpio-openswap
 mtpfs
+mysql
 neofetch
 neovim
 nerd-fonts-complete
