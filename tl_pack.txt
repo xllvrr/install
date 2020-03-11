@@ -1,0 +1,1148 @@
+i IEEEconf: Macros for IEEE conference proceedings
+i IEEEtran: Document class for IEEE Transactions journals and conferences
+i a2ping: Advanced PS, PDF, EPS converter
+i a2ping.x86_64-linux: x86_64-linux files of a2ping
+i aaai-named: BibTeX style for AAAI
+i aastex: Macros for Manuscript Preparation for AAS Journals
+i abnt: Typesetting academic works according to ABNT rules
+i abntex2: Typeset technical and scientific Brazilian documents based on ABNT rules
+i accfonts: Utilities to derive new fonts from existing ones
+i accfonts.x86_64-linux: x86_64-linux files of accfonts
+i acmart: Class for typesetting publications of ACM
+i acmconf: Class for ACM conference proceedings
+i active-conf: Class for typesetting ACTIVE conference papers
+i adfathesis: Australian Defence Force Academy thesis format
+i adhocfilelist: '\listfiles' entries from the command line
+i adhocfilelist.x86_64-linux: x86_64-linux files of adhocfilelist
+i adigraph: Augmenting directed graphs
+i ae: Virtual fonts for T1 encoded CMR-fonts
+i afm2pl: convert AFM to TeX property list (.pl) metrics
+i afm2pl.x86_64-linux: x86_64-linux files of afm2pl
+i afparticle: Typesetting articles for Archives of Forensic Psychology
+i afthesis: Air Force Institute of Technology thesis class
+i aguplus: Styles for American Geophysical Union
+i aiaa: Typeset AIAA conference papers
+i aichej: Bibliography style file for the AIChE Journal
+i ajl: BibTeX style for AJL
+i ametsoc: Official American Meteorological Society LaTeX Template
+i amscls: AMS document classes for LaTeX
+i amsfonts: TeX fonts from the American Mathematical Society
+i amsmath: AMS mathematical facilities for LaTeX
+i amsrefs: A LaTeX-based replacement for BibTeX
+i annotate: A bibliography style with annotations
+i anufinalexam: LaTeX document shell for ANU final exam
+i anysize: A simple package to set up document margins
+i aobs-tikz: TikZ styles for creating overlaid pictures in beamer
+i aomart: Typeset articles for the Annals of Mathematics
+i apa: American Psychological Association format
+i apa6: Format documents in APA style (6th edition)
+i apa6e: Format manuscripts to APA 6th edition guidelines
+i apa7: Format documents in APA style (7th edition)
+i apacite: Citation style following the rules of the APA
+i apalike2: Bibliography style that approaches APA requirements
+i arabxetex: An ArabTeX-like interface for XeLaTeX
+i arara: Automation of LaTeX compilation
+i arara.x86_64-linux: x86_64-linux files of arara
+i archaeologie: A citation-style which covers rules of the German Archaeological Institute
+i arsclassica: A different view of the ClassicThesis package
+i articleingud: LaTeX class for articles published in INGENIERIA review
+i asaetr: Transactions of the ASAE
+i ascelike: Bibliography style for the ASCE
+i askmaps: Typeset American style Karnaugh maps
+i asmeconf: A template for ASME conference papers
+i asmejour: A template for ASME journal papers
+i asyfig: Commands for using Asymptote figures
+i asymptote: 2D and 3D TeX-Aware Vector Graphics Language
+i asymptote.x86_64-linux: x86_64-linux files of asymptote
+i asypictureb: User-friendly integration of Asymptote into LaTeX
+i atbegshi: Execute stuff at \shipout time
+i attachfile2: Attach files into PDF
+i attachfile2.x86_64-linux: x86_64-linux files of attachfile2
+i atveryend: Hooks at the very end of a document
+i aucklandthesis: Memoir-based class for formatting University of Auckland masters' and doctors' theses
+i authordate: Author/date style citation styles
+i autoarea: Automatic computation of bounding boxes with PiCTeX
+i automata: Finite state machines, graphs and trees in MetaPost
+i auxhook: Hooks for auxiliary files
+i avantgar: URW "Base 35" font pack for LaTeX
+i awesomebox: Draw admonition blocks in your documents, illustrated with FontAwesome icons
+i babel: Multilingual support for Plain TeX or LaTeX
+i babel-english: Babel support for English
+i babelbib: Multilingual bibliographies
+i bangorcsthesis: Typeset a thesis at Bangor University
+i bangorexam: Typeset an examination at Bangor University
+i bardiag: LaTeX package for drawing bar diagrams
+i bath-bst: Harvard referencing style as recommended by the University of Bath Library
+i bbcard: Bullshit bingo, calendar and baseball-score cards
+i beamer: A LaTeX class for producing presentations and slides
+i beamer-FUBerlin: Beamer, using the style of FU Berlin
+i beamer-verona: A theme for the beamer class
+i beamerswitch: Convenient mode selection in Beamer documents
+i beebe: A collection of bibliographies
+i beilstein: Support for submissions to the "Beilstein Journal of Nanotechnology"
+i besjournals: Bibliographies suitable for British Ecological Society journals
+i bestpapers: A BibTeX package to produce lists of authors' best papers
+i bgteubner: Class for producing books for the publisher "Teubner Verlag"
+i bib2gls: Command line application to convert .bib files to glossaries-extra.sty resource files
+i bib2gls.x86_64-linux: x86_64-linux files of bib2gls
+i bibarts: "Arts"-style bibliographical information
+i biber: A BibTeX replacement for users of BibLaTeX
+i biber.x86_64-linux: x86_64-linux files of biber
+i bibexport: Extract a BibTeX file based on a .aux file
+i bibexport.x86_64-linux: x86_64-linux files of bibexport
+i bibhtml: BibTeX support for HTML files
+i biblatex: Sophisticated Bibliographies in LaTeX
+i biblatex-abnt: BibLaTeX style for Brazil's ABNT rules
+i biblatex-anonymous: A tool to manage anonymous work with BibLaTeX
+i biblatex-apa: BibLaTeX citation and reference style for APA
+i biblatex-apa6: BibLaTeX citation and reference style for APA 6th Edition
+i biblatex-archaeology: A collection of BibLaTeX styles for German prehistory
+i biblatex-arthistory-bonn: BibLaTeX citation style covers the citation and bibliography guidelines for art historians
+i biblatex-bath: Harvard referencing style as recommended by the University of Bath Library
+i biblatex-bookinarticle: Manage book edited in article
+i biblatex-bookinother: Manage book edited in other entry type
+i biblatex-bwl: BibLaTeX citations for FU Berlin
+i biblatex-caspervector: A simple citation style for Chinese users
+i biblatex-chem: A set of BibLaTeX implementations of chemistry-related bibliography styles
+i biblatex-chicago: Chicago style files for BibLaTeX
+i biblatex-claves: A tool to manage claves of old litterature with BibLaTeX
+i biblatex-dw: Humanities styles for BibLaTeX
+i biblatex-enc: BibLaTeX style for the Ecole nationale des chartes (Paris)
+i biblatex-ext: Extended BibLaTeX standard styles
+i biblatex-fiwi: BibLaTeX styles for use in German humanities
+i biblatex-gb7714-2015: A BibLaTeX implementation of the GBT7714-2015 bibliography style for Chinese users
+i biblatex-gost: BibLaTeX support for GOST standard bibliographies
+i biblatex-historian: A BibLaTeX style
+i biblatex-ieee: IEEE style files for BibLaTeX
+i biblatex-ijsra: BibLaTeX style for the International Journal of Student Research in Archaeology
+i biblatex-iso690: BibLaTeX style for ISO 690 standard
+i biblatex-jura2: Citation style for the German legal profession
+i biblatex-juradiss: BibLaTeX stylefiles for German law thesis
+i biblatex-lni: LNI style for BibLaTeX
+i biblatex-luh-ipw: BibLaTeX styles for social sciences
+i biblatex-manuscripts-philology: Manage classical manuscripts with BibLaTeX
+i biblatex-mla: MLA style files for BibLaTeX
+i biblatex-morenames: New names for standard BibLaTeX entry type
+i biblatex-multiple-dm: Load multiple datamodels in BibLaTeX
+i biblatex-musuos: A BibLaTeX style for citations in musuos.cls
+i biblatex-nature: BibLaTeX support for Nature
+i biblatex-nejm: BibLaTeX style for the New England Journal of Medicine (NEJM)
+i biblatex-nottsclassic: Citation style for the University of Nottingham
+i biblatex-opcit-booktitle: Use op. cit. for the booktitle of a subentry
+i biblatex-oxref: BibLaTeX styles inspired by the Oxford Guide to Style
+i biblatex-philosophy: Styles for using BibLaTeX for work in philosophy
+i biblatex-phys: A BibLaTeX implementation of the AIP and APS bibliography style
+i biblatex-publist: BibLaTeX bibliography support for publication lists
+i biblatex-realauthor: Indicate the real author of a work
+i biblatex-sbl: Society of Biblical Literature (SBL) style files for BibLaTeX
+i biblatex-science: BibLaTeX implementation of the Science bibliography style
+i biblatex-shortfields: Use short forms of fields with BibLaTeX
+i biblatex-socialscienceshuberlin: BibLaTeX-style for the social sciences at HU Berlin
+i biblatex-source-division: References by "division" in classical sources
+i biblatex-subseries: Manages subseries with BibLaTeX
+i biblatex-swiss-legal: Bibliography and citation styles following Swiss legal practice
+i biblatex-trad: "Traditional" BibTeX styles with BibLaTeX
+i biblatex-true-citepages-omit: Correction of some limitation of the citepages=omit option of BibLaTeX styles
+i biblist: Print a BibTeX database
+i bibtex: Process bibliographies for LaTeX, etc
+i bibtex.x86_64-linux: x86_64-linux files of bibtex
+i bibtex8: BibTeX variant supporting 8-bit encodings
+i bibtex8.x86_64-linux: x86_64-linux files of bibtex8
+i bibtexperllibs: BibTeX Perl Libraries
+i bibtexu: BibTeX variant supporting Unicode (UTF-8)
+i bibtexu.x86_64-linux: x86_64-linux files of bibtexu
+i bibtopic: Include multiple bibliographies in a document
+i bibtopicprefix: Prefix references to bibliographies produced by bibtopic
+i bibunits: Multiple bibliographies in one document
+i bidi-atbegshi: Bidi-aware shipout macros
+i bidicontour: Bidi-aware coloured contour around text
+i bidipagegrid: Bidi-aware page grid in background
+i bidipresentation: Experimental bidi presentation
+i bidishadowtext: Bidi-aware shadow text
+i bigintcalc: Integer calculations on very large numbers
+i binarytree: Drawing binary trees using TikZ
+i biolett-bst: A BibTeX style for the journal "Biology Letters"
+i bitset: Handle bit-vector datatype
+i blochsphere: Draw pseudo-3D diagrams of Bloch spheres
+i blockdraw_mp: Block diagrams and bond graphs, with MetaPost
+i bloques: Generate control diagrams
+i blox: Draw block diagrams, using TikZ
+i bodegraph: Draw Bode, Nyquist and Black plots with gnuplot and TikZ
+i bondgraph: Create bond graph figures in LaTeX documents
+i bondgraphs: Draws bond graphs in LaTeX, using PGF/TikZ
+i bookdb: A BibTeX style file for cataloguing a home library
+i bookman: URW "Base 35" font pack for LaTeX
+i bookmark: A new bookmark (outline) organization for hyperref
+i booktabs: Publication quality tables in LaTeX
+i bpolynomial: Drawing polynomial functions of up to order 3
+i br-lex: A Class for Typesetting Brazilian legal texts
+i braids: Draw braid diagrams with PGF/TikZ
+i brandeis-dissertation: Class for Brandeis University dissertations
+i brandeis-problemset: Document class for COSI Problem sets at Brandeis University (Waltham, MA)
+i brandeis-thesis: A class for Brandeis University M.A. theses
+i breakcites: Ensure that multiple citations may break at line end
+i breqn: Automatic line breaking of displayed equations
+i bundledoc: Bundle together all the files needed to build a LaTeX document
+i bundledoc.x86_64-linux: x86_64-linux files of bundledoc
+i businesscard-qrcode: Business cards with QR-Code
+i bxeepic: Eepic facilities using pict2e
+i cachepic: Convert document fragments into graphics
+i cachepic.x86_64-linux: x86_64-linux files of cachepic
+i callouts: Put simple annotations and notes inside a picture
+i caption: Customising captions in floating environments
+i carlisle: David Carlisle's small packages
+i cascadilla: Typeset papers conforming to the stylesheet of the Cascadilla Proceedings Project
+i cbfonts: Complete set of Greek fonts
+i cbfonts-fd: LaTeX font description files for the CB Greek fonts
+i cell: Bibliography style for Cell
+i celtic: A TikZ library for drawing celtic knots
+i cesenaexam: A class file to typeset exams
+i changepage: Margin adjustment and detection of odd/even pages
+i charter: Charter fonts
+i chbibref: Change the Bibliography/References title
+i checklistings: Pass verbatim contents through a compiler and reincorporate the resulting output
+i checklistings.x86_64-linux: x86_64-linux files of checklistings
+i chem-journal: Various BibTeX formats for journals in Chemistry
+i chembst: A collection of BibTeX files for chemistry journals
+i chemfig: Draw molecules with easy syntax
+i chicago: A "Chicago" bibliography style
+i chicago-annote: Chicago-based annotated BibTeX style
+i chicagoa: "Chicago" bibliography style with annotations
+i chklref: Check for problems with labels in LaTeX
+i chklref.x86_64-linux: x86_64-linux files of chklref
+i chktex: Check for errors in LaTeX documents
+i chktex.x86_64-linux: x86_64-linux files of chktex
+i chs-physics-report: Physics lab reports for Carmel High School
+i chscite: Bibliography style for Chalmers University of Technology
+i circuit-macros: M4 macros for electric circuit diagrams
+i circuitikz: Draw electrical networks with TikZ
+i cite: Improved citation handling in LaTeX
+i citeall: Cite all entries of a bbl created with BibLaTeX
+i citeref: Add reference-page-list to bibliography-items
+i cje: LaTeX document class for CJE articles
+i classicthesis: A "classically styled" thesis package
+i cleanthesis: A clean LaTeX style for thesis documents
+i clojure-pamphlet: A simple literate programming tool based on clojure's pamphlet system
+i clojure-pamphlet.x86_64-linux: x86_64-linux files of clojure-pamphlet
+i cluttex: An automation tool for running LaTeX
+i cluttex.x86_64-linux: x86_64-linux files of cluttex
+i cm: Computer Modern fonts
+i cm-super: CM-Super family of fonts
+i cmap: Make PDF files searchable and copyable
+i cmarrows: MetaPost arrows and braces in the Computer Modern style
+i cmextra: Knuth's local information
+i cmpj: Style for the journal Condensed Matter Physics
+i collection-basic: Essential programs and files
+i collection-bibtexextra: BibTeX additional styles
+i collection-binextra: TeX auxiliary programs
+i collection-fontsrecommended: Recommended fonts
+i collection-fontutils: Graphics and font utilities
+i collection-latex: LaTeX fundamental packages
+i collection-latexrecommended: LaTeX recommended packages
+i collection-metapost: MetaPost and Metafont packages
+i collection-pictures: Graphics, pictures, diagrams
+i collection-publishers: Publisher styles, theses, etc.
+i collection-xetex: XeTeX and packages
+i collref: Collect blocks of references into a single reference
+i colorprofiles: Collection of free ICC profiles
+i colortbl: Add colour to LaTeX tables
+i combinedgraphics: Include graphic (EPS or PDF)/LaTeX combinations
+i compactbib: Multiple thebibliography environments
+i confproc: A set of tools for generating conference proceedings
+i courier: URW "Base 35" font pack for LaTeX
+i cqubeamer: LaTeX Beamer Template for Chongqing University
+i cquthesis: LaTeX Thesis Template for Chongqing University
+i crop: Support for cropmarks
+i crossrefware: Scripts for working with crossref.org
+i crossrefware.x86_64-linux: x86_64-linux files of crossrefware
+i ctable: Flexible typesetting of table and figure floats using key/value directives
+i ctan-o-mat: Upload or validate a package for CTAN
+i ctan-o-mat.x86_64-linux: x86_64-linux files of ctan-o-mat
+i ctan_chk: CTAN guidelines verifier and corrector for uploading projects
+i ctanbib: Export CTAN entries to bib format
+i ctanbib.x86_64-linux: x86_64-linux files of ctanbib
+i ctanify: Prepare a package for upload to CTAN
+i ctanify.x86_64-linux: x86_64-linux files of ctanify
+i ctanupload: Support for users uploading to CTAN
+i ctanupload.x86_64-linux: x86_64-linux files of ctanupload
+i ctie: C version of tie (merging Web change files)
+i ctie.x86_64-linux: x86_64-linux files of ctie
+i curve: A class for making curriculum vitae
+i curve2e: Extensions for package pict2e
+i curves: Curves for LaTeX picture environment
+i custom-bib: Customised BibTeX styles
+i cweb: CWEB for ANSI-C/C++ compilers
+i cweb.x86_64-linux: x86_64-linux files of cweb
+i dccpaper: Typeset papers for the International Journal of Digital Curation
+i dcpic: Commutative diagrams in a LaTeX and TeX documents
+i de-macro: Expand private macros in a document
+i de-macro.x86_64-linux: x86_64-linux files of de-macro
+i dehyph: German hyphenation patterns for traditional orthography
+i detex: Strip TeX from a source file
+i detex.x86_64-linux: x86_64-linux files of detex
+i diagmac2: Diagram macros, using pict2e
+i din1505: Bibliography styles for German texts
+i ditaa: Use ditaa diagrams within LaTeX documents
+i dithesis: A class for undergraduate theses at the University of Athens
+i dk-bib: Danish variants of standard BibTeX styles
+i doc-pictex: A summary list of PicTeX documentation
+i doipubmed: Special commands for use in bibliographies
+i dosepsbin: Deal with DOS binary EPS files
+i dosepsbin.x86_64-linux: x86_64-linux files of dosepsbin
+i dot2texi: Create graphs within LaTeX using the dot2tex tool
+i dottex: Use dot code in LaTeX
+i dratex: General drawing macros
+i drs: Typeset Discourse Representation Structures (DRS)
+i drv: Derivation trees with MetaPost
+i dtl: Tools to dis-assemble and re-assemble DVI files
+i dtl.x86_64-linux: x86_64-linux files of dtl
+i dtxgen: Creates a template for a self-extracting .dtx file
+i dtxgen.x86_64-linux: x86_64-linux files of dtxgen
+i duotenzor: Drawing package for circuit and duotensor diagrams
+i dvi2tty: Produce ASCII from DVI
+i dvi2tty.x86_64-linux: x86_64-linux files of dvi2tty
+i dviasm: A utility for editing DVI files
+i dviasm.x86_64-linux: x86_64-linux files of dviasm
+i dvicopy: Copy DVI files, flattening VFs
+i dvicopy.x86_64-linux: x86_64-linux files of dvicopy
+i dvidvi: Convert one DVI file into another
+i dvidvi.x86_64-linux: x86_64-linux files of dvidvi
+i dviincl: Include a DVI page into MetaPost output
+i dviinfox: Perl script to print DVI meta information
+i dviinfox.x86_64-linux: x86_64-linux files of dviinfox
+i dviljk: DVI to Laserjet output
+i dviljk.x86_64-linux: x86_64-linux files of dviljk
+i dviout-util: (shortdesc missing)
+i dviout-util.x86_64-linux: x86_64-linux files of dviout-util
+i dvipdfmx: An extended version of dvipdfm
+i dvipdfmx.x86_64-linux: x86_64-linux files of dvipdfmx
+i dvipng: A fast DVI to PNG/GIF converter
+i dvipng.x86_64-linux: x86_64-linux files of dvipng
+i dvipos: support DVI pos: specials used by ConTeXt DVI output
+i dvipos.x86_64-linux: x86_64-linux files of dvipos
+i dvips: A DVI to PostScript driver
+i dvips.x86_64-linux: x86_64-linux files of dvips
+i dvipsconfig: Collection of dvips PostScript headers
+i dvisvgm: Convert DVI, EPS, and PDF files to Scalable Vector Graphics format (SVG)
+i dvisvgm.x86_64-linux: x86_64-linux files of dvisvgm
+i dynkin-diagrams: Draw Dynkin, Coxeter, and Satake diagrams using TikZ
+i ebook: Helps creating an ebook by providing an ebook class
+i ebsthesis: Typesetting theses for economics
+i ec: Computer modern fonts in T1 and TS1 encodings
+i ecgdraw: Draws electrocardiograms (ECG)
+i ecobiblatex: Global Ecology and Biogeography BibLaTeX styles for the Biber backend
+i econ-bst: BibTeX style for economics papers
+i economic: BibTeX support for submitting to Economics journals
+i ecothesis: LaTeX thesis template for the Universidade Federal de Vicosa (UFV), Brazil
+i eepic: Extensions to epic and the LaTeX drawing tools
+i ejpecp: Class for EJP and ECP
+i ekaia: Article format for publishing the Basque Country Science and Technology Journal "Ekaia"
+i elbioimp: A LaTeX document class for the Journal of Electrical Bioimpedance
+i ellipse: Draw ellipses and elliptical arcs using the standard LaTeX2e picture environment
+i elocalloc: Local allocation macros for LaTeX 2015
+i els-cas-templates: Elsevier updated LaTeX templates
+i elsarticle: Class for articles for submission to Elsevier journals
+i elteikthesis: Thesis template for Eotvos Lorand University (Informatics)
+i emisa: A LaTeX package for preparing manuscripts for the journal EMISA
+i emp: "Encapsulate" MetaPost figures in a document
+i enctex: A TeX extension that translates input on its way into TeX
+i endfloat: Move floats to the end, leaving markers where they belong
+i endofproofwd: An "end of proof" sign
+i environ: A new interface for environments in LaTeX
+i epsincl: Include EPS in MetaPost figures
+i epspdf: Converter for PostScript, EPS and PDF
+i epspdf.x86_64-linux: x86_64-linux files of epspdf
+i epspdfconversion: On-the-fly conversion of EPS to PDF
+i epstopdf: Convert EPS to PDF using Ghostscript
+i epstopdf-pkg: Call epstopdf "on the fly"
+i epstopdf.x86_64-linux: x86_64-linux files of epstopdf
+i erdc: Style for Reports by US Army Corps of Engineers
+i esk: Package to encapsulate Sketch files in LaTeX sources
+i eso-pic: Add picture commands (or backgrounds) to every page
+i estcpmm: Style for Munitions Management Project Reports
+i etex: An extended version of TeX, from the NTS project
+i etex-pkg: E-TeX support package
+i etexcmds: Avoid name clashes with e-TeX commands
+i etoolbox: e-TeX tools for LaTeX
+i etsvthor: Some useful abbreviations for members of e.t.s.v. Thor
+i euenc: Unicode font encoding definitions for XeTeX
+i euflag: A command to reproduce the flag of the European Union
+i euler: Use AMS Euler fonts for math
+i euro: Provide Euro values for national currency amounts
+i euro-ce: Euro and CE sign font
+i eurosym: Metafont and macros for Euro sign
+i expressg: Diagrams consisting of boxes, lines, and annotations
+i exteps: Include EPS figures in MetaPost
+i extsizes: Extend the standard classes' size options
+i facture-belge-simple-sans-tva: Simple Belgian invoice without VAT
+i fancybox: Variants of \fbox and other games with boxes
+i fancyhdr: Extensive control of page headers and footers in LaTeX2e
+i fancyref: A LaTeX package for fancy cross-referencing
+i fancyvrb: Sophisticated verbatim text
+i fast-diagram: Easy generation of FAST diagrams
+i fbithesis: Computer Science thesis class for University of Dortmund
+i fbs: BibTeX style for Frontiers in Bioscience
+i fcavtex: A thesis class for the FCAV/UNESP (Brazil)
+i fcltxdoc: Macros for use in the author's documentation
+i featpost: MetaPost macros for 3D
+i fei: Class for academic works at FEI University Center -- Brazil
+i feynmf: Macros and fonts for creating Feynman (and other) diagrams
+i feynmp-auto: Automatic processing of feynmp graphics
+i fig4latex: Management of figures for large LaTeX documents
+i fig4latex.x86_64-linux: x86_64-linux files of fig4latex
+i figbib: Organize figure databases with BibTeX
+i filehook: Hooks for input files
+i findhyph: Find hyphenated words in a document
+i findhyph.x86_64-linux: x86_64-linux files of findhyph
+i fitbox: Fit graphics on a page
+i fix2col: Fix miscellaneous two column mode features
+i fixlatvian: Improve Latvian language support in XeLaTeX
+i fiziko: A MetaPost library for physics textbook illustrations
+i float: Improved interface for floating objects
+i flowchart: Shapes for drawing flowcharts, using TikZ
+i font-change-xetex: Macros to change text and mathematics fonts in plain XeTeX
+i fontbook: Generate a font book
+i fontinst: Help with installing fonts for TeX and LaTeX
+i fontinst.x86_64-linux: x86_64-linux files of fontinst
+i fontools: Tools to simplify using fonts (especially TT/OTF ones)
+i fontools.x86_64-linux: x86_64-linux files of fontools
+i fontspec: Advanced font selection in XeLaTeX and LuaLaTeX
+i fontware: Tools for virtual font metrics
+i fontware.x86_64-linux: x86_64-linux files of fontware
+i fontwrap: Bind fonts to specific unicode blocks
+i footbib: Bibliographic references as footnotes
+i footnotehyper: hyperref aware footnote.sty
+i forest: Drawing (linguistic) trees
+i fp: Fixed point arithmetic
+i fpl: SC and OsF fonts for URW Palladio L
+i fragmaster: Using psfrag with pdfLaTeX
+i fragmaster.x86_64-linux: x86_64-linux files of fragmaster
+i framed: Framed or shaded regions that can break across pages
+i francais-bst: Bibliographies conforming to French typographic standards
+i ftc-notebook: Typeset FIRST Tech Challenge (FTC) notebooks
+i gaceta: A class to typeset La Gaceta de la RSME
+i gammas: Template for the GAMM Archive for Students
+i garrigues: MetaPost macros for the reproduction of Garrigues' Easter nomogram
+i gatech-thesis: Georgia Institute of Technology thesis class
+i gbt7714: BibTeX implementation of China's bibliography style standard GB/T 7714-2015
+i genealogytree: Pedigree and genealogical tree diagrams
+i geometry: Flexible and complete interface to document dimensions
+i geschichtsfrkl: BibLaTeX style for historians
+i getmap: Download OpenStreetMap maps for use in documents
+i getmap.x86_64-linux: x86_64-linux files of getmap
+i gettitlestring: Clean up title references
+i gincltex: Include TeX files as graphics (.tex support for \includegraphics)
+i glyphlist: Adobe Glyph List and TeX extensions
+i gmp: Enable integration between MetaPost pictures and LaTeX
+i gnuplottex: Embed Gnuplot commands in LaTeX documents
+i gradientframe: Simple gradient frames around objects
+i gradstudentresume: A generic template for graduate student resumes
+i grafcet: Draw Grafcet/SFC with TikZ
+i grant: Classes for formatting federal grant proposals
+i graph35: Draw keys and screen items of several Casio calculators
+i graphics: The LaTeX standard graphics bundle
+i graphics-cfg: Sample configuration files for LaTeX color and graphics
+i graphics-def: Colour and graphics option files
+i graphicxpsd: Adobe Photoshop Data format (PSD) support for graphicx package
+i graphviz: Write graphviz (dot+neato) inline in LaTeX documents
+i greek-inputenc: Greek encoding support for inputenc
+i grfext: Manipulate the graphics package's list of extensions
+i grffile: Extended file name support for graphics (legacy package)
+i gsemthesis: Geneva School of Economics and Management PhD thesis format
+i gsftopk: Convert "Ghostscript fonts" to PK files
+i gsftopk.x86_64-linux: x86_64-linux files of gsftopk
+i gtrlib-largetrees: Library for genealogytree aiming at large trees
+i gzt: Bundle of classes for "La Gazette des Mathematiciens"
+i h2020proposal: LaTeX class and template for EU H2020 RIA proposal
+i hagenberg-thesis: A Collection of LaTeX classes, style files, and example documents for academic manuscripts
+i har2nat: Replace the harvard package with natbib
+i harvard: Harvard citation package for use with LaTeX 2e
+i harveyballs: Create Harvey Balls using TikZ
+i harvmac: Macros for scientific articles
+i hatching: MetaPost macros for hatching interior of closed paths
+i hecthese: A class for dissertations and theses at HEC Montreal
+i helvetic: URW "Base 35" font pack for LaTeX
+i hep-paper: Publications in High Energy Physics
+i here: Emulation of obsolete package for "here" floats
+i hf-tikz: A simple way to highlight formulas and formula parts
+i historische-zeitschrift: BibLaTeX style for the journal 'Historische Zeitschrift'
+i hithesis: Harbin Institute of Technology Thesis Template
+i hitszthesis: A bachelor dissertation template for Harbin Institute of Technology, ShenZhen
+i hobby: An implementation of Hobby's algorithm for PGF/TikZ
+i hobete: Unofficial beamer theme for the University of Hohenheim
+i hologo: A collection of logos with bookmark support
+i hook-pre-commit-pkg: Pre-commit git hook for LaTeX package developpers
+i hu-berlin-bundle: LaTeX classes for the Humboldt-Universitat zu Berlin
+i hustthesis: Unofficial thesis template for Huazhong University
+i hvfloat: Rotating caption and object of floats independently
+i hycolor: Implements colour for packages hyperref and bookmark
+i hyperref: Extensive support for hypertext in LaTeX
+i hyph-utf8: Hyphenation patterns expressed in UTF-8
+i hyphen-base: core hyphenation support files
+i hyphenex: US English hyphenation exceptions file
+i icite: Indices locorum citatorum
+i icsv: Class for typesetting articles for the ICSV conference
+i ieeepes: IEEE Power Engineering Society Transactions
+i ietfbibs: Generate BibTeX entries for various IETF index files
+i ifmtarg: If-then-else command for processing potentially empty arguments
+i ifplatform: Conditionals to test which platform is being used
+i iftex: Am I running under pdfTeX, XeTeX or LuaTeX?
+i ijmart: LaTeX Class for the Israel Journal of Mathematics
+i ijqc: BibTeX style file for the Intl. J. Quantum Chem
+i ijsra: LaTeX document class for the International Journal of Student Research in Archaeology
+i imac: International Modal Analysis Conference format
+i imtekda: IMTEK thesis class
+i index: Extended index for LaTeX including multiple indexes
+i infwarerr: Complete set of information/warning/error message macros
+i inkpaper: A LaTeX class for writing a thesis following French rules
+i inlinebib: Citations in footnotes
+i installfont: A bash script for installing a LaTeX font family
+i installfont.x86_64-linux: x86_64-linux files of installfont
+i intcalc: Expandable arithmetic operations with integers
+i interchar: Managing character class schemes in XeTeX
+i iodhbwm: Unofficial template of the DHBW Mannheim
+i iopart-num: Numeric citation style for IOP journals
+i is-bst: Extended versions of standard BibTeX styles
+i iscram: A LaTeX class to publish article to ISCRAM conferences
+i istgame: Draw Game Trees with TikZ
+i iwona: A two-element sans-serif font
+i jacow: The "jacow.cls" class is used for submissions to the proceedings of conferences on JACoW.org
+i jbact: BibTeX style for biology journals
+i jknapltx: Miscellaneous packages by Joerg Knappen
+i jmb: BibTeX style for the Journal of Theoretical Biology
+i jmlr: Class files for the Journal of Machine Learning Research
+i jneurosci: BibTeX style for the Journal of Neuroscience
+i jnuexam: Exam class for Jinan University
+i jpsj: Document Class for Journal of the Physical Society of Japan
+i jurabib: Extended BibTeX citation support for the humanities and legal texts
+i kblocks: Easily typeset Control Block Diagrams and Signal Flow Graphs
+i kdgdocs: Document classes for Karel de Grote University College
+i ketcindy: macros for graphic generation and Cinderella plugin
+i ketcindy.x86_64-linux: x86_64-linux files of ketcindy
+i kluwer: Kluwer publication support
+i knitting: Produce knitting charts, in Plain TeX or LaTeX
+i knittingpattern: Create knitting patterns
+i knuth-lib: A small library of Metafont sources
+i knuth-local: Knuth's local information
+i koma-script: A bundle of versatile classes and packages
+i kpathsea: Path searching library for TeX-related files
+i kpathsea.x86_64-linux: x86_64-linux files of kpathsea
+i ksfh_nat: BibTeX style for KSFH Munich
+i ksp-thesis: A LaTeX class for theses published with KIT Scientific Publishing
+i ku-template: Copenhagen University or faculty logo for front page
+i kvdefinekeys: Define keys for use in the kvsetkeys package
+i kvoptions: Key value format for package options
+i kvsetkeys: Key value parser with default handler support
+i l3backend: LaTeX3 backend drivers
+i l3experimental: Experimental LaTeX3 concepts
+i l3kernel: LaTeX3 programming conventions
+i l3packages: High-level LaTeX3 concepts
+i lacheck: LaTeX checker
+i lacheck.x86_64-linux: x86_64-linux files of lacheck
+i ladder: Draw simple ladder diagrams using TikZ
+i langsci: Typeset books for publication with Language Science Press
+i lapdf: PDF drawing directly in TeX documents
+i latex: A TeX macro package that defines LaTeX
+i latex-base-dev: Development pre-release of the LaTeX kernel
+i latex-bin: LaTeX executables and man pages
+i latex-bin.x86_64-linux: x86_64-linux files of latex-bin
+i latex-fonts: A collection of fonts used in LaTeX distributions
+i latex-git-log: Typeset git log information
+i latex-git-log.x86_64-linux: x86_64-linux files of latex-git-log
+i latex-make: Easy compiling of complex (and simple) LaTeX documents
+i latex-papersize: Calculate LaTeX settings for any font and paper size
+i latex-papersize.x86_64-linux: x86_64-linux files of latex-papersize
+i latex2man: Translate LaTeX-based manual pages into Unix man format
+i latex2man.x86_64-linux: x86_64-linux files of latex2man
+i latex2nemeth: Convert LaTeX source to Braille with math in Nemeth
+i latex2nemeth.x86_64-linux: x86_64-linux files of latex2nemeth
+i latexbug: Bug-classification for LaTeX related bugs
+i latexconfig: configuration files for LaTeX-related formats
+i latexdiff: Determine and mark up significant differences between LaTeX files
+i latexdiff.x86_64-linux: x86_64-linux files of latexdiff
+i latexfileversion: Prints the version and date of a LaTeX class or style file
+i latexfileversion.x86_64-linux: x86_64-linux files of latexfileversion
+i latexindent: Indent a LaTeX document, highlighting the programming structure
+i latexindent.x86_64-linux: x86_64-linux files of latexindent
+i latexmk: Fully automated LaTeX document generation
+i latexmk.x86_64-linux: x86_64-linux files of latexmk
+i latexmp: Interface for LaTeX-based typesetting in MetaPost
+i latexpand: Expand \input and \include in a LaTeX document
+i latexpand.x86_64-linux: x86_64-linux files of latexpand
+i lcdftypetools: A bundle of outline font manipulation tools
+i lcdftypetools.x86_64-linux: x86_64-linux files of lcdftypetools
+i letltxmacro: Let assignment for LaTeX macros
+i limecv: A (Xe/Lua)LaTeX document class for curriculum vitae
+i lineno: Line numbers on paragraphs
+i lion-msc: LaTeX class for B.Sc. and M.Sc. reports at Leiden Institute of Physics (LION)
+i listbib: Lists contents of BibTeX files
+i listbib.x86_64-linux: x86_64-linux files of listbib
+i listings: Typeset source code listings using LaTeX
+i listings-ext: Automated input of source
+i listings-ext.x86_64-linux: x86_64-linux files of listings-ext
+i llncsconf: LaTeX package extending Springer's llncs class
+i lm: Latin modern fonts in outline formats
+i lm-math: OpenType maths fonts for Latin Modern
+i lni: Official class for the "Lecture Notes in Informatics"
+i logreq: Support for automation of the LaTeX workflow
+i lpic: Put LaTeX material over included graphics
+i lps: Class for "Logic and Philosophy of Science"
+i lroundrect: LaTeX macros for utilizing the roundrect MetaPost routines
+i ltb2bib: Converts amsrefs' .ltb bibliographical databases to BibTeX format
+i ltxcmds: Some LaTeX kernel commands for general use
+i ltxfileinfo: Print version information for a LaTeX file
+i ltxfileinfo.x86_64-linux: x86_64-linux files of ltxfileinfo
+i ltximg: Extract LaTeX environments into separate image files
+i ltximg.x86_64-linux: x86_64-linux files of ltximg
+i ltxmisc: Miscellaneous LaTeX packages, etc
+i lua-alt-getopt: Process application arguments the same way as getopt_long
+i luabibentry: Repeat BibTeX entries in a LuaLaTeX document body
+i luajittex: LuaTeX with just-in-time (jit) compiler
+i luajittex.x86_64-linux: x86_64-linux files of luajittex
+i lualibs: Additional Lua functions for LuaTeX macro programmers
+i luamesh: Computes and draws 2D Delaunay triangulation
+i luaotfload: OpenType 'loader' for Plain TeX and LaTeX
+i luaotfload.x86_64-linux: x86_64-linux files of luaotfload
+i luasseq: Drawing spectral sequences in LuaLaTeX
+i luatex: The LuaTeX engine
+i luatex.x86_64-linux: x86_64-linux files of luatex
+i lwarp: Converts LaTeX to HTML
+i lwarp.x86_64-linux: x86_64-linux files of lwarp
+i make4ht: A build system for tex4ht
+i make4ht.x86_64-linux: x86_64-linux files of make4ht
+i makecmds: The new \makecommand command always (re)defines a command
+i makeindex: Makeindex development sources
+i makeindex.x86_64-linux: x86_64-linux files of makeindex
+i maker: Include Arduino or Processing code in LaTeX documents
+i makeshape: Declare new PGF shapes
+i manfnt-font: Knuth's "manual" fonts
+i margbib: Display bibitem tags in the margins
+i marvosym: Martin Vogel's Symbols (marvosym) font
+i matc3: Commands for MatematicaC3 textbooks
+i matc3mem: Class for MatematicaC3 textbooks
+i match_parens: Find mismatches of parentheses, braces, (angle) brackets, in texts
+i match_parens.x86_64-linux: x86_64-linux files of match_parens
+i mathastext: Use the text font in maths mode
+i mathpazo: Fonts to typeset mathematics to match Palatino
+i mathspec: Specify arbitrary fonts for mathematics in XeTeX
+i mathspic: A Perl filter program for use with PiCTeX
+i mathspic.x86_64-linux: x86_64-linux files of mathspic
+i mathtools: Mathematical tools to use with amsmath
+i mcf2graph: Draw chemical structure diagrams with Metafont/MetaPost
+i mcmthesis: Template designed for MCM/ICM
+i mdwtools: Miscellaneous tools by Mark Wooding
+i memoir: Typeset fiction, non-fiction and mathematical books
+i mentis: A basis for books to be published by Mentis publishers
+i metafont: A system for specifying fonts
+i metafont.x86_64-linux: x86_64-linux files of metafont
+i metago: MetaPost output of Go positions
+i metalogo: Extended TeX logo macros
+i metaobj: MetaPost package providing high-level objects
+i metaplot: Plot-manipulation macros for use in MetaPost
+i metapost: A development of Metafont for creating graphics
+i metapost-colorbrewer: An implementation of the colorbrewer2.org colours for MetaPost
+i metapost.x86_64-linux: x86_64-linux files of metapost
+i metatype1: Generate Type 1 fonts from MetaPost
+i metauml: MetaPost library for typesetting UML diagrams
+i mf2pt1: Produce PostScript Type 1 fonts from Metafont source
+i mf2pt1.x86_64-linux: x86_64-linux files of mf2pt1
+i mflogo: LaTeX support for Metafont logo fonts
+i mflogo-font: Metafont logo font
+i mflua: configuration and base files for MFLua
+i mflua.x86_64-linux: x86_64-linux files of mflua
+i mfnfss: Packages to typeset oldgerman and pandora fonts in LaTeX
+i mfpic: Draw Metafont/post pictures from (La)TeX commands
+i mfpic4ode: Macros to draw direction fields and solutions of ODEs
+i mfware: Supporting tools for use with Metafont
+i mfware.x86_64-linux: x86_64-linux files of mfware
+i microtype: Subliminal refinements towards typographical perfection
+i milsymb: LaTeX package for TikZ based drawing of military symbols as per NATO APP-6(C)
+i miniplot: A package for easy figure arrangement
+i mkjobtexmf: Generate a texmf tree for a particular job
+i mkjobtexmf.x86_64-linux: x86_64-linux files of mkjobtexmf
+i mkpic: Perl interface to mfpic
+i mkpic.x86_64-linux: x86_64-linux files of mkpic
+i mlacls: LaTeX class for MLA papers
+i mnras: Monthly Notices of the Royal Astronomical Society
+i modeles-factures-belges-assocs: Generate invoices for Belgian non-profit organizations
+i modes: A collection of Metafont mode_def's
+i modiagram: Drawing molecular orbital diagrams
+i mp3d: 3D animations
+i mparrows: MetaPost module with different types of arrow heads
+i mpattern: Patterns in MetaPost
+i mpcolornames: Extend list of predefined colour names for MetaPost
+i mpgraphics: Process and display MetaPost figures inline
+i mptopdf: mpost to PDF, native MetaPost graphics inclusion
+i mptopdf.x86_64-linux: x86_64-linux files of mptopdf
+i mptrees: Probability trees with MetaPost
+i ms: Various LaTeX packages by Martin Schroder
+i msu-thesis: Class for Michigan State University Master's and PhD theses
+i mucproc: Conference proceedings for the German MuC-conference
+i mugsthesis: Thesis class complying with Marquette University Graduate School requirements
+i multibib: Multiple bibliographies within one document
+i multibibliography: Multiple versions of a bibliography, with different sort orders
+i multibibliography.x86_64-linux: x86_64-linux files of multibibliography
+i multirow: Create tabular cells spanning multiple rows
+i munich: An alternative authordate bibliography style
+i musuos: Typeset papers for the department of music, Osnabruck
+i muthesis: Classes for University of Manchester Dept of Computer Science
+i mweights: Support for multiple-weight font packages
+i mynsfc: XeLaTeX template for writing the main body of NSFC proposals
+i na-position: Tables of relative positions of curves and asymptotes or tangents in Arabic documents
+i nar: BibTeX style for Nucleic Acid Research
+i natbib: Flexible bibliography support
+i nature: Prepare papers for the journal Nature
+i navydocs: Support for Technical Reports by US Navy Organizations
+i ncntrsbk: URW "Base 35" font pack for LaTeX
+i nddiss: Notre Dame Dissertation format class
+i ndsu-thesis: North Dakota State University disquisition class
+i neuralnetwork: Graph-drawing for neural networks
+i newfloat: Define new floating environments
+i nih: A class for NIH grant applications
+i nihbiosketch: A class for NIH biosketches based on the 2015 updated format
+i nmbib: Multiple versions of a bibliography, with different sort orders
+i nostarch: LaTeX class for No Starch Press
+i notes2bib: Integrating notes into the bibliography
+i notex-bst: A BibTeX style that outputs HTML
+i novel: Class for printing fiction, such as novels
+i nrc: Class for the NRC technical journals
+i ntgclass: "European" versions of standard classes
+i numericplots: Plot numeric data (including Matlab export) using PSTricks
+i nwejm: Support for the journal "North-Western European Journal of Mathematics"
+i oberdiek: A bundle of packages submitted by Heiko Oberdiek
+i onrannual: Class for Office of Naval Research Ocean Battlespace Sensing annual report
+i opensans: The Open Sans font family, and LaTeX support
+i opteng: SPIE Optical Engineering and OE Letters manuscript template
+i oscola: BibLaTeX style for the Oxford Standard for the Citation of Legal Authorities
+i palatino: URW "Base 35" font pack for LaTeX
+i paralist: Enumerate and itemize within paragraphs
+i parskip: Layout with zero \parindent, non-zero \parskip
+i patgen: Generate hyphenation patterns
+i patgen.x86_64-linux: x86_64-linux files of patgen
+i pb-diagram: A commutative diagram package using LAMSTeX or Xy-pic fonts
+i pdfbook2: Create booklets from PDF files
+i pdfbook2.x86_64-linux: x86_64-linux files of pdfbook2
+i pdfcrop: Crop PDF graphics
+i pdfcrop.x86_64-linux: x86_64-linux files of pdfcrop
+i pdfescape: Implements pdfTeX's escape features using TeX or e-TeX
+i pdfjam: Shell scripts interfacing to pdfpages
+i pdfjam.x86_64-linux: x86_64-linux files of pdfjam
+i pdflatexpicscale: Support software for downscaling graphics to be included by pdfLaTeX
+i pdflatexpicscale.x86_64-linux: x86_64-linux files of pdflatexpicscale
+i pdflscape: Make landscape pages display as landscape
+i pdfpages: Include PDF documents in LaTeX
+i pdftex: A TeX extension for direct creation of PDF
+i pdftex-quiet: A bash wrapper for pdfTeX limiting its output to relevant errors
+i pdftex-quiet.x86_64-linux: x86_64-linux files of pdftex-quiet
+i pdftex.x86_64-linux: x86_64-linux files of pdftex
+i pdftexcmds: LuaTeX support for pdfTeX utility functions
+i pdftosrc: Extract source file or stream from PDF file
+i pdftosrc.x86_64-linux: x86_64-linux files of pdftosrc
+i pdfxup: Create n-up PDF pages with minimal margins
+i pdfxup.x86_64-linux: x86_64-linux files of pdfxup
+i penrose: A TikZ library for producing Penrose tilings
+i perception: BibTeX style for the journal Perception
+i petri-nets: A set TeX/LaTeX packages for drawing Petri nets
+i petri-nets.x86_64-linux: x86_64-linux files of petri-nets
+i pfarrei: LaTeX support of pastors' and priests' work
+i pfarrei.x86_64-linux: x86_64-linux files of pfarrei
+i pgf: Create PostScript and PDF graphics in TeX
+i pgf-blur: PGF/TikZ package for "blurred" shadows
+i pgf-cmykshadings: Support for CMYK and grayscale shadings in PGF/TikZ
+i pgf-soroban: Create images of the soroban using TikZ/PGF
+i pgf-spectra: Draw continuous or discrete spectra using PGF/TikZ
+i pgf-umlcd: Some LaTeX macros for UML Class Diagrams
+i pgf-umlsd: Draw UML Sequence Diagrams
+i pgfgantt: Draw Gantt charts with TikZ
+i pgfkeyx: Extended and more robust version of pgfkeys
+i pgfmolbio: Draw graphs typically found in molecular biology texts
+i pgfmorepages: Assemble multiple logical pages onto a physical page
+i pgfopts: LaTeX package options with pgfkeys
+i pgfornament: Drawing of Vectorian ornaments with PGF/TikZ
+i pgfplots: Create normal/logarithmic plots in two and three dimensions
+i philokalia: A font to typeset the Philokalia Books
+i philosophersimprint: Typesetting articles for "Philosophers' Imprint"
+i picinpar: Insert pictures into paragraphs
+i pict2e: New implementation of picture commands
+i pictex: Picture drawing macros for TeX and LaTeX
+i pictex2: Adds relative coordinates and improves the \plot command
+i piechartmp: Draw pie-charts using MetaPost
+i pinlabel: A TeX labelling package
+i pittetd: Electronic Theses and Dissertations at Pitt
+i pixelart: A package to draw pixel-art pictures
+i pkfix: Replace pk fonts in PostScript with Type 1 fonts
+i pkfix-helper: Make PostScript files accessible to pkfix
+i pkfix-helper.x86_64-linux: x86_64-linux files of pkfix-helper
+i pkfix.x86_64-linux: x86_64-linux files of pkfix
+i pkuthss: LaTeX template for dissertations in Peking University
+i placeins: Control float placement
+i plain: The Plain TeX format
+i plainyr: Plain bibliography style, sorted by year first
+i pmgraph: "Poor man's" graphics
+i pnas2009: BibTeX style for PNAS (newer version)
+i polyglossia: An alternative to babel for XeLaTeX and LuaLaTeX
+i postage: stamp letters with >>Deutsche Post<<'s service >>Internetmarke<<
+i powerdot-fuberlin: Powerdot, using the style of FU Berlin
+i powerdot-tuliplab: A style package for Powerdot to provide the design of TULIP Lab
+i pracjourn: Typeset articles for PracTeX
+i prerex: Interactive editor and macro support for prerequisite charts
+i procIAGssymp: Macros for IAG symposium papers
+i productbox: Typeset a three-dimensional product box
+i proposal: A set of LaTeX classes for preparing proposals for collaborative projects
+i prtec: A template for PRTEC conference papers
+i ps2eps: Produce Encapsulated PostScript from PostScript
+i ps2eps.x86_64-linux: x86_64-linux files of ps2eps
+i ps2pk: Generate a PK font from an Adobe Type 1 font
+i ps2pk.x86_64-linux: x86_64-linux files of ps2pk
+i psfrag: Replace strings in encapsulated PostScript figures
+i pslatex: Use PostScript fonts by default
+i psnfss: Font support for common PostScript fonts
+i pspicture: PostScript picture support
+i psutils: PostScript utilities
+i psutils.x86_64-linux: x86_64-linux files of psutils
+i ptext: A 'lipsum' for Persian
+i ptolemaicastronomy: Diagrams of sphere models for variably strict conditionals (Lewis counterfactuals)
+i ptptex: Macros for 'Progress of Theoretical Physics'
+i purifyeps: Make EPS work with both LaTeX/dvips and pdfLaTeX
+i purifyeps.x86_64-linux: x86_64-linux files of purifyeps
+i pxfonts: Palatino-like fonts in support of mathematics
+i pxpgfmark: e-pTeX driver for PGF inter-picture connections
+i pythontex: Run Python from within a document, typesetting the results
+i pythontex.x86_64-linux: x86_64-linux files of pythontex
+i qcircuit: Macros to generate quantum ciruits
+i qrcode: Generate QR codes in LaTeX
+i quantikz: Draw quantum circuit diagrams
+i quantumarticle: Document class for submissions to the Quantum journal
+i quran: An easy way to typeset any part of The Holy Quran
+i quran-de: German translations to the quran package
+i ragged2e: Alternative versions of "ragged"-type commands
+i randbild: Marginal pictures
+i randomwalk: Random walks using TikZ
+i rcs: Use RCS (revision control system) tags in LaTeX documents
+i realhats: Put real hats on symbols instead of ^
+i realscripts: Access OpenType subscript and superscript glyphs
+i refcount: Counter operations with label references
+i reotex: Draw Reo Channels and Circuits
+i repere: Diagrams for school mathematics
+i rerunfilecheck: Checksum based rerun checks on auxiliary files
+i resphilosophica: Typeset articles for the journal Res Philosophica
+i resumecls: Typeset a resume both in English and Chinese
+i revtex: Styles for various Physics Journals
+i revtex4: Styles for various Physics Journals (old version)
+i roex: Metafont-PostScript conversions
+i roundrect: MetaPost macros for highly configurable rounded rectangles (optionally with text)
+i rsc: BibTeX style for use with RSC journals
+i rsfs: Ralph Smith's Formal Script font
+i rutitlepage: Radboud University Titlepage Package
+i rviewport: Relative Viewport for Graphics Inclusion
+i ryersonsgsthesis: Ryerson School of Graduate Studies thesis template
+i ryethesis: Class for Ryerson Unversity Graduate School requirements
+i sa-tikz: TikZ library to draw switching architectures
+i sageep: Format papers for the annual meeting of EEGS
+i sansmath: Maths in a sans font
+i sapthesis: Typeset theses for Sapienza-University, Rome
+i sauerj: A bundle of utilities by Jonathan Sauer
+i schemabloc: Draw block diagrams, using TikZ
+i scheme-basic: basic scheme (plain and latex)
+i scheme-infraonly: infrastructure-only scheme (no TeX at all)
+i scheme-minimal: minimal scheme (plain only)
+i schule: Support for teachers at German schools
+i scientific-thesis-cover: Provides cover page and affirmation at the end of a thesis
+i scratch: Draw programs like "scratch"
+i scratch3: Draw programs like "scratch"
+i scrjrnl: Typeset diaries or journals
+i scsnowman: Snowman variants using TikZ
+i sduthesis: Thesis Template of Shandong University
+i section: Modifying section commands in LaTeX
+i seetexk: Utilities for manipulating DVI files
+i seetexk.x86_64-linux: x86_64-linux files of seetexk
+i seminar: Make overhead slides
+i sepnum: Print numbers in a "friendly" format
+i setdeck: Typeset cards for Set
+i setspace: Set space between lines
+i seuthesis: LaTeX template for theses at Southeastern University
+i seuthesix: LaTeX class for theses at Southeast University, Nanjing, China
+i shapes: Draw polygons, reentrant stars, and fractions in circles with MetaPost
+i showtags: Print the tags of bibliography entries
+i signchart: Create beautifully typeset sign charts
+i simple-resume-cv: Template for a simple resume or curriculum vitae (CV), in XeLaTeX
+i simple-thesis-dissertation: Template for a simple thesis or dissertation (Ph.D. or master's degree) or technical report, in XeLaTeX
+i simpleoptics: Drawing lenses and mirrors for optical diagrams
+i slideshow: Generate slideshow with MetaPost
+i smartdiagram: Generate diagrams from lists
+i sort-by-letters: Bibliography styles for alphabetic sorting
+i soton: University of Southampton-compliant slides
+i spath3: Manipulate "soft paths" in PGF
+i spectralsequences: Print spectral sequence diagrams using PGF/TikZ
+i sphdthesis: LaTeX template for writing PhD Thesis
+i spie: Support for formatting SPIE Proceedings manuscripts
+i splines: MetaPost macros for drawing cubic spline interpolants
+i splitbib: Split and reorder your bibliography
+i sr-vorl: Class for Springer books
+i srcredact: A tool for redacting sources
+i srcredact.x86_64-linux: x86_64-linux files of srcredact
+i srdp-mathematik: Typeset Austrian SRDP in mathematics
+i stellenbosch: Stellenbosch thesis bundle
+i stringenc: Converting a string between different encodings
+i sty2dtx: Create a .dtx file from a .sty file
+i sty2dtx.x86_64-linux: x86_64-linux files of sty2dtx
+i suanpan: MetaPost macros for drawing Chinese and Japanese abaci
+i subfig: Figures broken into subfigures
+i suftesi: A document class for typesetting theses, books and articles
+i sugconf: SAS(R) user group conference proceedings document class
+i svn-prov: Subversion variants of \Provides... macros
+i swimgraf: Graphical/textual representations of swimming performances
+i symbol: URW "Base 35" font pack for LaTeX
+i synctex: engine-level feature synchronizing output and source
+i synctex.x86_64-linux: x86_64-linux files of synctex
+i t1utils: Simple Type 1 font manipulation programs
+i t1utils.x86_64-linux: x86_64-linux files of t1utils
+i table-fct: Draw a variations table of functions and a convexity table of its graph
+i tabriz-thesis: A template for the University of Tabriz
+i technion-thesis-template: Template for theses on the Technion graduate school
+i tetragonos: Four-Corner codes of Chinese characters
+i tex: A sophisticated typesetting engine
+i tex-gyre: TeX Fonts extending freely available URW fonts
+i tex-gyre-math: Maths fonts to match tex-gyre text fonts
+i tex-ini-files: Model TeX format creation files
+i tex.x86_64-linux: x86_64-linux files of tex
+i tex4ebook: Convertor from LaTeX to ebook formats
+i tex4ebook.x86_64-linux: x86_64-linux files of tex4ebook
+i texcount: Count words in a LaTeX document
+i texcount.x86_64-linux: x86_64-linux files of texcount
+i texdef: Display the definitions of TeX commands
+i texdef.x86_64-linux: x86_64-linux files of texdef
+i texdiff: Compare documents and produce tagged merge
+i texdiff.x86_64-linux: x86_64-linux files of texdiff
+i texdirflatten: Collect files related to a LaTeX job in a single directory
+i texdirflatten.x86_64-linux: x86_64-linux files of texdirflatten
+i texdoc: Documentation access for TeX Live
+i texdoc.x86_64-linux: x86_64-linux files of texdoc
+i texdoctk: Easy access to package documentation
+i texdoctk.x86_64-linux: x86_64-linux files of texdoctk
+i texdraw: Graphical macros, using embedded PostScript
+i texfot: Filter clutter from the output of a TeX run
+i texfot.x86_64-linux: x86_64-linux files of texfot
+i texilikechaps: Format chapters with a texi-like format
+i texilikecover: A cover-page package, like TeXinfo
+i texlive-common: TeX Live documentation (common elements)
+i texlive-docindex: top-level TeX Live doc.html, etc.
+i texlive-en: TeX Live manual (English)
+i texlive-msg-translations: translations of the TeX Live installer and TeX Live Manager
+i texlive-scripts: TeX Live infrastructure programs
+i texlive-scripts-extra: TeX Live scripts
+i texlive-scripts-extra.x86_64-linux: x86_64-linux files of texlive-scripts-extra
+i texlive-scripts.x86_64-linux: x86_64-linux files of texlive-scripts
+i texlive.infra: basic TeX Live infrastructure
+i texlive.infra.x86_64-linux: x86_64-linux files of texlive.infra
+i texliveonfly: On-the-fly download of missing TeX live packages
+i texliveonfly.x86_64-linux: x86_64-linux files of texliveonfly
+i texloganalyser: Analyse TeX logs
+i texloganalyser.x86_64-linux: x86_64-linux files of texloganalyser
+i texosquery: Cross-platform Java application to query OS information
+i texosquery.x86_64-linux: x86_64-linux files of texosquery
+i texplate: A tool for creating document structures based on templates
+i texplate.x86_64-linux: x86_64-linux files of texplate
+i textcase: Case conversion ignoring mathematics, etc
+i textpath: Setting text along a path with MetaPost
+i texware: Utility programs for use with TeX
+i texware.x86_64-linux: x86_64-linux files of texware
+i thesis-ekf: Thesis class for Eszterhazy Karoly University
+i thesis-gwu: Thesis class for George Washington University School of Engineering and Applied Science
+i thesis-qom: Thesis style of the University of Qom, Iran
+i thesis-titlepage-fhac: Little style to create a standard titlepage for diploma thesis
+i threeddice: Create images of dice with one, two, or three faces showing, using MetaPost
+i threeparttable: Tables with captions and notes all the same width
+i thuaslogos: Logos for The Hague University of Applied Sciences (THUAS)
+i thucoursework: Coursework template for Tsinghua University
+i thumbpdf: Thumbnails for pdfTeX and dvips/ps2pdf
+i thumbpdf.x86_64-linux: x86_64-linux files of thumbpdf
+i thuthesis: Thesis template for Tsinghua University
+i ticollege: Graphical representation of keys on a standard scientific calculator
+i tie: Allow multiple web change files
+i tie.x86_64-linux: x86_64-linux files of tie
+i tikz-3dplot: Coordinate transformation styles for 3d plotting in TikZ
+i tikz-bayesnet: Draw Bayesian networks, graphical models and directed factor graphs
+i tikz-cd: Create commutative diagrams with TikZ
+i tikz-dependency: A library for drawing dependency graphs
+i tikz-dimline: Technical dimension lines using PGF/TikZ
+i tikz-feynhand: Feynman diagrams with TikZ
+i tikz-feynman: Feynman diagrams with TikZ
+i tikz-imagelabels: Put labels on images using TikZ
+i tikz-inet: Draw interaction nets with TikZ
+i tikz-kalender: A LaTeX based calendar using TikZ
+i tikz-karnaugh: Typeset Karnaugh maps using TikZ
+i tikz-ladder: Draw ladder diagrams using TikZ
+i tikz-layers: TikZ provides graphical layers on TikZ: "behind", "above" and "glass"
+i tikz-nef: create diagrams for neural networks constructed with the methods of the Neural Engineering Framework (NEF)
+i tikz-network: Draw networks with TikZ
+i tikz-opm: Typeset OPM diagrams
+i tikz-optics: A library for drawing optical setups with TikZ
+i tikz-page: Small macro to help building nice and complex layout materials
+i tikz-palattice: Draw particle accelerator lattices with TikZ
+i tikz-qtree: Use existing qtree syntax for trees in TikZ
+i tikz-relay: TikZ library for typesetting electrical diagrams
+i tikz-sfc: Symbols collection for typesetting Sequential Function Chart (SFC) diagrams (PLC programs)
+i tikz-timing: Easy generation of timing diagrams as TikZ pictures
+i tikz-trackschematic: A TikZ library for creating track diagrams in railways
+i tikz-truchet: Draw Truchet tiles
+i tikzcodeblocks: Helps to draw codeblocks like scratch, NEPO and PXT in TikZ
+i tikzducks: A little fun package for using rubber ducks in TikZ
+i tikzinclude: Import TikZ images from colletions
+i tikzlings: A collection of cute little animals and similar creatures
+i tikzmark: Use TikZ's method of remembering a position on a page
+i tikzmarmots: Drawing little marmots in TikZ
+i tikzorbital: Atomic and molecular orbitals using TikZ
+i tikzpagenodes: A single TikZ node for the whole page
+i tikzpeople: Draw people-shaped nodes in TikZ
+i tikzpfeile: Draw arrows using PGF/TikZ
+i tikzposter: Create scientific posters using TikZ
+i tikzscale: Resize pictures while respecting text size
+i tikzsymbols: Some symbols created using TikZ
+i timbreicmc: Typeset documents with ICMC/USP watermarks
+i times: URW "Base 35" font pack for LaTeX
+i timing-diagrams: Draw timing diagrams
+i tipa: Fonts and macros for IPA phonetics characters
+i tipfr: Produces calculator's keys with the help of TikZ
+i tkz-base: Tools for drawing with a cartesian coordinate system
+i tkz-berge: Macros for drawing graphs of graph theory
+i tkz-doc: Documentation macros for the TKZ series of packages
+i tkz-euclide: Tools for drawing Euclidean geometry
+i tkz-fct: Tools for drawing graphs of functions
+i tkz-graph: Draw graph-theory graphs
+i tkz-kiviat: Draw Kiviat graphs
+i tkz-linknodes: Link nodes in mathematical environments
+i tkz-orm: Create Object-Role Model (ORM) diagrams
+i tkz-tab: Tables of signs and variations using PGF/TikZ
+i tlc-article: A LaTeX document class for formal documents
+i tlcockpit: A GUI frontend to TeX Live Manager (tlmgr)
+i tlcockpit.x86_64-linux: x86_64-linux files of tlcockpit
+i tlshell: GUI frontend (tcl/tk-based) for tlmgr
+i tlshell.x86_64-linux: x86_64-linux files of tlshell
+i tocbibind: Add bibliography/index/contents to Table of Contents
+i tocloft: Control table of contents, figures, etc
+i tools: The LaTeX standard tools bundle
+i topletter: Letter class for the Politecnico di Torino
+i toptesi: Bundle for typesetting multilanguage theses
+i tpic2pdftex: Use tpic commands in pdfTeX
+i tpic2pdftex.x86_64-linux: x86_64-linux files of tpic2pdftex
+i tqft: Drawing TQFT diagrams with TikZ/PGF
+i translator: Easy translation of strings in LaTeX
+i trimspaces: Trim spaces around an argument or within a macro
+i tsemlines: Support for the ancient \emline macro
+i ttfutils: convert TrueType to TFM and PK fonts
+i ttfutils.x86_64-linux: x86_64-linux files of ttfutils
+i tuda-ci: LaTeX templates of Technische Universitat Darmstadt
+i tudscr: Corporate Design of Technische Universitat Dresden
+i tufte-latex: Document classes inspired by the work of Edward Tufte
+i tugboat: LaTeX macros for TUGboat articles
+i tugboat-plain: Plain TeX macros for TUGboat
+i tui: Thesis style for the University of the Andes, Colombia
+i turabian: Create Turabian-formatted material using LaTeX
+i turabian-formatting: Formatting based on Turabian's Manual
+i txfonts: Times-like fonts in support of mathematics
+i typehtml: Typeset HTML directly from LaTeX
+i typeoutfileinfo: Display class/package/file information
+i typeoutfileinfo.x86_64-linux: x86_64-linux files of typeoutfileinfo
+i uaclasses: University of Arizona thesis and dissertation format
+i uafthesis: Document class for theses at University of Alaska Fairbanks
+i uantwerpendocs: Course texts, master theses, and exams in University of Antwerp style
+i ucalgmthesis: LaTeX thesis class for University of Calgary Faculty of Graduate Studies
+i ucbthesis: Thesis and dissertation class supporting UCB requirements
+i ucdavisthesis: A thesis/dissertation class for University of California at Davis
+i ucharcat: Implementation of the (new in 2015) XeTeX \Ucharcat command in lua, for LuaTeX
+i ucharclasses: Font actions in XeTeX according to what is being processed
+i ucsmonograph: Typesetting academic documents from the University of Caxias do Sul
+i ucthesis: University of California thesis format
+i uestcthesis: Thesis class for UESTC
+i uhhassignment: A document class for typesetting homework assignments
+i uiucredborder: Class for UIUC thesis red-bordered forms
+i uiucthesis: UIUC thesis class
+i ulthese: Thesis class and templates for Universite Laval
+i umbclegislation: A LaTeX class for building legislation files for UMBC Student Government Association Bills
+i umich-thesis: University of Michigan Thesis LaTeX class
+i umthesis: Dissertations at the University of Michigan
+i unam-thesis: Create documents according to the UNAM guidelines
+i unamth-template: UNAM Thesis LaTeX Template
+i unamthesis: Style for Universidad Nacional Autonoma de Mexico theses
+i underscore: Control the behaviour of "_" in text
+i uni-wtal-ger: Citation style for literary studies at the University of Wuppertal
+i uni-wtal-lin: Citation style for linguistic studies at the University of Wuppertal
+i unicode-bidi: Experimental unicode bidi package for XeTeX
+i unicode-data: Unicode data and loaders for TeX
+i unicode-math: Unicode mathematics support for XeTeX and LuaTeX
+i unifith: Typeset theses for University of Florence (Italy)
+i uniquecounter: Provides unlimited unique counter
+i unisugar: Define syntactic sugar for Unicode LaTeX
+i unitn-bimrep: A bimonthly report class for the PhD School of Materials, Mechatronics and System Engineering
+i univie-ling: Papers, theses and research proposals in (Applied) Linguistics at Vienna University
+i unizgklasa: A LaTeX class for theses at the Faculty Of Graphic Arts in Zagreb
+i unswcover: Typeset a dissertation cover page following UNSW guidelines
+i uothesis: Class for dissertations and theses at the University of Oregon
+i uowthesis: Document class for dissertations at the University of Wollongong
+i uowthesistitlepage: Title page for dissertations at the University of Wollongong
+i updmap-map: auto-generated font map files
+i urcls: Beamer and scrlttr2 classes and styles for the University of Regensburg
+i url: Verbatim with URL-sensitive line breaks
+i urlbst: Web support for BibTeX
+i urlbst.x86_64-linux: x86_64-linux files of urlbst
+i usebib: A simple bibliography processor
+i uspatent: U.S. Patent Application Tools for LaTeX and LyX
+i ut-thesis: University of Toronto thesis style
+i utexasthesis: University of Texas at Austin graduate thesis style
+i utopia: Adobe Utopia fonts
+i uwthesis: University of Washington thesis class
+i vak: BibTeX style for Russian Theses, books, etc
+i vancouver: Bibliographic style file for Biomedical Journals
+i venndiagram: Creating Venn diagrams with TikZ
+i visualpstricks: Visual help for PSTricks based on images with minimum text
+i wasy: The wasy fonts (Waldi symbol fonts)
+i wasy-type1: Type 1 versions of wasy fonts
+i wasysym: LaTeX support file to use the wasy fonts
+i web: The original literate programming system
+i web.x86_64-linux: x86_64-linux files of web
+i windycity: A Chicago style for BibLaTeX
+i wsemclassic: LaTeX class for Bavarian school w-seminar papers
+i xcite: Use citation keys from a different document
+i xcolor: Driver-independent color extensions for LaTeX and pdfLaTeX
+i xduthesis: XeLaTeX template for writing Xidian University Thesis
+i xdvi: A DVI previewer for the X Window System
+i xdvi.x86_64-linux: x86_64-linux files of xdvi
+i xebaposter: Create beautiful scientific Persian/Latin posters using TikZ
+i xechangebar: An extension of package changebar that can be used with XeLaTeX
+i xecjk: Support for CJK documents in XeLaTeX
+i xecolor: Support for color in XeLaTeX
+i xecyr: Using Cyrillic languages in XeTeX
+i xeindex: Automatic index generation for XeLaTeX
+i xelatex-dev: (shortdesc missing)
+i xelatex-dev.x86_64-linux: x86_64-linux files of xelatex-dev
+i xesearch: A string finder for XeTeX
+i xespotcolor: Spot colours support for XeLaTeX
+i xetex: An extended variant of TeX for use with Unicode sources
+i xetex-itrans: Itrans input maps for use with XeLaTeX
+i xetex-pstricks: Running PSTricks under XeTeX
+i xetex-tibetan: XeTeX input maps for Unicode Tibetan
+i xetex.x86_64-linux: x86_64-linux files of xetex
+i xetexconfig: crop.cfg for XeLaTeX
+i xetexfontinfo: Report font features in XeTeX
+i xetexko: Typeset Korean with Xe(La)TeX
+i xevlna: Insert non-breakable spaces using XeTeX
+i xifthen: Extended conditional commands
+i xindex: Unicode compatible index generation
+i xindex.x86_64-linux: x86_64-linux files of xindex
+i xindy: A general-purpose index processor
+i xindy.x86_64-linux: x86_64-linux files of xindy
+i xkeyval: Extension of the keyval package
+i xltxtra: "Extras" for LaTeX users of XeTeX
+i xpatch: Extending etoolbox patching commands
+i xpdfopen: Commands to control PDF readers, under X11
+i xpdfopen.x86_64-linux: x86_64-linux files of xpdfopen
+i xpicture: Extensions of LaTeX picture drawing
+i xunicode: Generate Unicode characters from accented glyphs
+i xypic: Flexible diagramming macros
+i yathesis: A LaTeX class for writing a thesis following French rules
+i yazd-thesis: A template for the Yazd University
+i york-thesis: A thesis class file for York University, Toronto
+i zapfchan: URW "Base 35" font pack for LaTeX
+i zapfding: URW "Base 35" font pack for LaTeX
+i zootaxa-bst: A BibTeX style for the journal Zootaxa
