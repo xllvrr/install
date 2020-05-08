@@ -255,6 +255,7 @@ i cquthesis: LaTeX Thesis Template for Chongqing University
 i crop: Support for cropmarks
 i crossrefware: Scripts for working with crossref.org
 i crossrefware.x86_64-linux: x86_64-linux files of crossrefware
+i csquotes: Context sensitive quotation facilities
 i ctable: Flexible typesetting of table and figure floats using key/value directives
 i ctan-o-mat: Upload or validate a package for CTAN
 i ctan-o-mat.x86_64-linux: x86_64-linux files of ctan-o-mat
@@ -401,6 +402,7 @@ i fiziko: A MetaPost library for physics textbook illustrations
 i float: Improved interface for floating objects
 i flowchart: Shapes for drawing flowcharts, using TikZ
 i font-change-xetex: Macros to change text and mathematics fonts in plain XeTeX
+i fontaxes: Additional font axes for LaTeX
 i fontbook: Generate a font book
 i fontinst: Help with installing fonts for TeX and LaTeX
 i fontinst.x86_64-linux: x86_64-linux files of fontinst
@@ -515,6 +517,7 @@ i jneurosci: BibTeX style for the Journal of Neuroscience
 i jnuexam: Exam class for Jinan University
 i jpsj: Document Class for Journal of the Physical Society of Japan
 i jurabib: Extended BibTeX citation support for the humanities and legal texts
+i kastrup: Convert numbers into binary, octal and hexadecimal
 i kblocks: Easily typeset Control Block Diagrams and Signal Flow Graphs
 i kdgdocs: Document classes for Karel de Grote University College
 i ketcindy: macros for graphic generation and Cinderella plugin
@@ -698,6 +701,7 @@ i nddiss: Notre Dame Dissertation format class
 i ndsu-thesis: North Dakota State University disquisition class
 i neuralnetwork: Graph-drawing for neural networks
 i newfloat: Define new floating environments
+i newtx: Alternative uses of the TX fonts, with improved metrics
 i nih: A class for NIH grant applications
 i nihbiosketch: A class for NIH biosketches based on the 2015 updated format
 i nmbib: Multiple versions of a bibliography, with different sort orders
@@ -842,6 +846,7 @@ i sageep: Format papers for the annual meeting of EEGS
 i sansmath: Maths in a sans font
 i sapthesis: Typeset theses for Sapienza-University, Rome
 i sauerj: A bundle of utilities by Jonathan Sauer
+i scalerel: Constrained scaling and stretching of objects
 i schemabloc: Draw block diagrams, using TikZ
 i scheme-basic: basic scheme (plain and latex)
 i scheme-infraonly: infrastructure-only scheme (no TeX at all)

@@ -1,19 +1,19 @@
-#!bin/bash
+#!usr/bin/env sh
 
 # This document is a script meant to aid with installation of my particular workflow
 
-# Step 1: Installing Software
-# 1A: Installing YAY AUR Helper
-sudo pacman -Syyu
-sudo pacman -S yay
-# 1B: Installing Packages
-yay -S --needed --nouseask --nocleanmenu --nodiffmenu --removemake - < ~/pkglist.txt # Install all listed packages
+# Installing Software
+# Installing YAY AUR Helper
+sudo pacman -Syyu --no-confirm --needed
+sudo pacman -S yay --no-confirm
+# Installing Packages
+yay -S --needed --noconfirm --nouseask --nocleanmenu --nodiffmenu --removemake - < pkglist.txt # Install all listed packages
 pacman -Rns $(pacman -Qtdq) # Remove orphans
 
-# Step 2: Restoring Configurations
+# Restoring Configurations
 alias config='/usr/bin/git --git-dir=$HOME/.config/ --work-tree=$HOME'
 echo ".config" >> .gitignore
-git clone --bare https://github.com/Xllvr/dotfiles.git $HOME/.config
+git clone --bare https://github.com/xllvrr/dotfiles.git $HOME/.config
 if [ $? = 0 ]; then
   echo "Checked out config.";
   else
@@ -23,23 +23,43 @@ fi;
 config checkout
 config config --local status.showUntrackedFiles no
 
-# Step 3: Cloning Needed Git Repos
-cd ~/.config
-git clone https://github.com/Xllvr/st.git
-cd st
-sudo make clean install
+# Cloning Needed Git Repos
+# Dmenu
+CURRENT_DIR="$PWD"
+git clone https://github.com/LukeSmithxyz/dmenu.git ~/repos/dmenu
+cd ~/repos/dmenu || exit
+make && sudo make install
+cd "$CURRENT_DIR" || exit
+# Tabbed
+git clone https://git.suckless.org/tabbed ~/repos/tabbed
+cd ~/repos/tabbed || exit
+make && sudo make install
+cd "$CURRENT_DIR" || exit
+# Scripts
+git clone https://github.com/xllvrr/scripts.git ~/repos/scripts
 
-# Step 4: Change Default Shell to Zsh
+# Change Default Shell to Zsh
 chsh -s /usr/bin/zsh
 
-# Step 5: Install Python Stuff
+# Install Python Stuff
 pip3 install --user pynvim flake8 autopep8 pylint mysql-connector
 
-# Step 6: Setting Up Fcitx
+# Setting Up Fcitx
 sudo echo "export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
 export XMODIFIERS=@im=fcitx" >>  /etc/profile
 
-# Step 7: Reminders
-echo "Setup Insync, Joplin, Rambox, Thunderbird, Discord, Chromium, Steam, Stacer, Gufw, Deja Dup & Timeshift"
+# Optimizing Swappiness
+echo "Swappiness before patch: $(cat /proc/sys/vm/swappiness)"
+echo "vm.swappiness = 10" >>/etc/sysctl.conf
+echo "Reboot in order to take effect"
+
+# Enabling Services
+sudo systemctl enable ssh.service
+sudo systemctl enable bluetooth
+sudo systemctl enable org.cups.cupsd
+ln -fs .profile .zprofile
+
+# Reminders
+echo "Setup Insync, Joplin, Rambox, Thunderbird, Texlive, Discord, Firefox, Steam, Stacer, Gufw, Deja Dup & Timeshift"
 echo "Key in Code for Reaper"
