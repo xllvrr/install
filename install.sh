@@ -5,7 +5,7 @@
 # Installing Software
 # Installing YAY AUR Helper
 sudo pacman -Syyu --no-confirm --needed
-sudo pacman -S yay --no-confirm
+sudo pacman -S --no-confirm yay reflector
 # Installing Packages
 yay -S --needed --noconfirm --nouseask --nocleanmenu --nodiffmenu --removemake - < pkglist.txt # Install all listed packages
 pacman -Rns $(pacman -Qtdq) # Remove orphans

@@ -111,7 +111,6 @@ gzip
 haveged
 hugin
 hyphen-en
-imagewriter
 inetutils
 insync
 inxi
