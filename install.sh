@@ -6,7 +6,6 @@
 yay -S --sudoloop reflector
 # Installing Packages
 yay -S --needed --sudoloop --nouseask --nocleanmenu --nodiffmenu --removemake --noprovides - < pkglist.txt # Install all listed packages
-pacman -Rns $(pacman -Qtdq) # Remove orphans
 
 # Cloning Needed Git Repos
 # Dmenu
@@ -73,6 +72,10 @@ echo "sxhkd & \ exec bspwm" >> sudo .xinitrc
 # Install TeXLive
 yay texlive-installer
 /opt/texlive-installer/install-tl
+
+# Remove orphans
+yay -Yc
+pacman -Rs $(pacman -Qqdt)
 
 # Reminders
 echo "Setup Insync, Joplin, Rambox, Thunderbird, Texlive, Discord, Firefox, Steam, Stacer, Gufw, Deja Dup & Timeshift"
