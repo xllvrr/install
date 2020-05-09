@@ -46,9 +46,9 @@ echo "Reboot in order to take effect"
 sudo ln -fs .profile .zprofile
 
 # Restoring Configurations
-alias config='/usr/bin/git --git-dir=$HOME/.config/ --work-tree=$HOME'
-echo ".config" >> .gitignore
-git clone --bare https://github.com/xllvrr/dotfiles.git $HOME/.config
+alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+echo ".dotfiles" >> .gitignore
+git clone --bare https://github.com/xllvrr/dotfiles.git $HOME/.dotfiles
 if [ $? = 0 ]; then
   echo "Checked out config.";
   else

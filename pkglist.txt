@@ -92,7 +92,6 @@ glibc
 gnome-boxes
 gradle
 grep
-grub
 gsfonts
 gst-libav
 gst-plugins-bad
@@ -146,8 +145,6 @@ libva-intel-driver
 libva-mesa-driver
 libva-vdpau-driver
 licenses
-lightdm
-lightdm-webkit2-greeter
 linux-firmware
 linux419
 linux419-r8168
@@ -287,7 +284,6 @@ usb_modeswitch
 usbutils
 user-manager
 util-linux
-vi
 vlc
 vulkan-intel
 vulkan-radeon
