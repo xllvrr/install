@@ -58,6 +58,10 @@ fi;
 config checkout
 config config --local status.showUntrackedFiles no
 
+# Install VimPlug
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+
 # Reminders
 echo "Setup Insync, Joplin, Rambox, Thunderbird, Texlive, Discord, Firefox, Steam, Stacer, Gufw, Deja Dup & Timeshift"
 echo "Key in Code for Reaper"
