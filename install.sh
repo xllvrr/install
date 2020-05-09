@@ -3,9 +3,7 @@
 # This document is a script meant to aid with installation of my particular workflow
 
 # Installing Software
-# Installing YAY AUR Helper
-sudo pacman -Syyu --no-confirm --needed
-sudo pacman -S --no-confirm yay reflector git
+yay -S --no-confirm reflector git
 # Installing Packages
 yay -S --needed --noconfirm --nouseask --nocleanmenu --nodiffmenu --removemake - < pkglist.txt # Install all listed packages
 pacman -Rns $(pacman -Qtdq) # Remove orphans
@@ -54,12 +52,6 @@ echo "Swappiness before patch: $(cat /proc/sys/vm/swappiness)"
 echo "vm.swappiness = 10" >>/etc/sysctl.conf
 echo "Reboot in order to take effect"
 
-# Enabling Services
-sudo systemctl enable ssh.service
-sudo systemctl enable bluetooth
-sudo systemctl enable org.cups.cupsd
-sudo systemctl stop dhcpcd.service
-sudo systemctl disable dhcpcd.service
 ln -fs .profile .zprofile
 
 # Reminders
