@@ -63,9 +63,12 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 
 # Install zsh plugins
-yay zsh-autosuggestions \
-zsh-syntax-highlighting \
-zsh-you-should-use
+yay zsh-autosuggestions zsh-syntax-highlighting zsh-you-should-use
+
+# Configure xinit
+touch .xinitrc
+touch .Xauthority
+echo "sxhkd & \ exec bspwm" >> sudo .xinitrc
 
 # Install TeXLive
 yay texlive-installer

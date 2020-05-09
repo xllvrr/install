@@ -90,12 +90,6 @@ grep
 gsfonts
 gtk3
 gufw
-gvfs
-gvfs-afc
-gvfs-gphoto2
-gvfs-mtp
-gvfs-nfs
-gvfs-smb
 gzip
 haveged
 hugin
