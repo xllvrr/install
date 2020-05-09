@@ -3,7 +3,7 @@
 # This document is a script meant to aid with installation of my particular workflow
 
 # Installing Software
-yay -S --sudoloop reflector git
+yay -S --sudoloop reflector
 # Installing Packages
 yay -S --needed --sudoloop --nouseask --nocleanmenu --nodiffmenu --removemake - < pkglist.txt # Install all listed packages
 pacman -Rns $(pacman -Qtdq) # Remove orphans

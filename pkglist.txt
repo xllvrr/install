@@ -51,7 +51,6 @@ dmidecode
 dmraid
 dnsmasq
 dosfstools
-downgrader-git
 dragon-drag-and-drop
 e2fsprogs
 ecryptfs-utils
@@ -191,7 +190,6 @@ nss-mdns
 ntfs-3g
 ntp
 numlockx
-okular
 openjdk8-src
 openresolv
 openssh
@@ -313,7 +311,6 @@ xorg-twm
 xorg-xinit
 xorg-xkill
 xprintidle
-xterm
 xtitle
 yarn
 yay
