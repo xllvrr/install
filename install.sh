@@ -5,7 +5,7 @@
 # Installing Software
 # Installing YAY AUR Helper
 sudo pacman -Syyu --no-confirm --needed
-sudo pacman -S --no-confirm yay reflector
+sudo pacman -S --no-confirm yay reflector git
 # Installing Packages
 yay -S --needed --noconfirm --nouseask --nocleanmenu --nodiffmenu --removemake - < pkglist.txt # Install all listed packages
 pacman -Rns $(pacman -Qtdq) # Remove orphans
@@ -58,6 +58,8 @@ echo "Reboot in order to take effect"
 sudo systemctl enable ssh.service
 sudo systemctl enable bluetooth
 sudo systemctl enable org.cups.cupsd
+sudo systemctl stop dhcpcd.service
+sudo systemctl disable dhcpcd.service
 ln -fs .profile .zprofile
 
 # Reminders
