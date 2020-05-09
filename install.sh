@@ -50,9 +50,11 @@ alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 echo ".dotfiles" >> .gitignore
 git clone --bare https://github.com/xllvrr/dotfiles.git $HOME/.dotfiles
 cd ~
+
 mkdir -p .config-backup && \
 config checkout 2>&1 | egrep "\s+\." | awk {'print $1'} | \
 xargs -I{} mv {} .config-backup/{}
+
 config checkout
 config config --local status.showUntrackedFiles no
 
@@ -60,8 +62,14 @@ config config --local status.showUntrackedFiles no
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 
+# Install zsh plugins
+yay zsh-autosuggestions \
+zsh-syntax-highlighting \
+zsh-you-should-use
+
 # Install TeXLive
 yay texlive-installer
+sh /opt/texlive-installer/install-tl
 
 # Reminders
 echo "Setup Insync, Joplin, Rambox, Thunderbird, Texlive, Discord, Firefox, Steam, Stacer, Gufw, Deja Dup & Timeshift"

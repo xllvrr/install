@@ -309,6 +309,3 @@ zathura-pdf-mupdf
 zensu
 zoom
 zsh
-zsh-autosuggestions
-zsh-syntax-highlighting
-zsh-you-should-use
