@@ -13,7 +13,6 @@ amd-ucode
 android-tools
 android-udev
 appimagelauncher
-ark
 aspell-en
 autoconf
 automake
@@ -71,7 +70,6 @@ feh
 ffmpeg
 ffmpegthumbs
 file
-filelight
 filesystem
 findutils
 firefox
@@ -137,13 +135,6 @@ libva-intel-driver
 libva-mesa-driver
 libva-vdpau-driver
 licenses
-linux-firmware
-linux419
-linux419-r8168
-linux54
-linux54-r8168
-linux54-rt
-linux54-rt-r8168
 linuxconsole
 log4cxx
 logrotate
@@ -187,8 +178,6 @@ openresolv
 openssh
 os-prober
 p7zip
-pacman
-pamac-gtk
 pandoc
 partitionmanager
 patch
@@ -205,7 +194,6 @@ poppler-data
 powerdevil
 powerline-fonts
 powertop
-print-manager
 procps-ng
 psmisc
 psutils
@@ -234,7 +222,6 @@ samba
 sed
 sencha-cmd-6
 shadow
-skanlite
 spaceship-prompt-git
 spectre-meltdown-checker
 splix
@@ -242,7 +229,6 @@ sshfs
 stacer
 steam
 subversion
-sudo
 sxhkd
 sxiv
 sysfsutils

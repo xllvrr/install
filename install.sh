@@ -69,7 +69,7 @@ zsh-you-should-use
 
 # Install TeXLive
 yay texlive-installer
-sh /opt/texlive-installer/install-tl
+/opt/texlive-installer/install-tl
 
 # Reminders
 echo "Setup Insync, Joplin, Rambox, Thunderbird, Texlive, Discord, Firefox, Steam, Stacer, Gufw, Deja Dup & Timeshift"
