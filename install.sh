@@ -5,7 +5,7 @@
 # Installing Software
 yay -S --sudoloop reflector
 # Installing Packages
-yay -S --needed --sudoloop --nouseask --nocleanmenu --nodiffmenu --removemake - < pkglist.txt # Install all listed packages
+yay -S --needed --sudoloop --nouseask --nocleanmenu --nodiffmenu --removemake --noprovides - < pkglist.txt # Install all listed packages
 pacman -Rns $(pacman -Qtdq) # Remove orphans
 
 # Cloning Needed Git Repos
