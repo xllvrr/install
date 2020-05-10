@@ -48,7 +48,7 @@ echo "Reboot in order to take effect"
 
 # Enable Services
 sudo systemctl enable org.cups.cupsd
-sudo systemctl enable ssh.service
+sudo pacman -S tlp
 sudo systemctl enable tlp
 
 # Symlink profile and zprofile
