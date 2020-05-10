@@ -1,0 +1,36 @@
+#!/usr/bin/env sh
+
+#================================================================================
+# extra packages
+#================================================================================
+
+# useful tools and other workflow packages
+yay --no-confirm --needed -S \
+    android-tools \
+    calibre \
+    checkbashisms \
+    colorpicker \
+    darktable \
+    discord \
+    dragon-drag-and-drop \
+    exa \
+    ffmpeg \
+    gimp \
+    gufw \
+    hugin \
+    insync \
+    libreoffice-fresh \
+    lutris \
+    rambox-bin \
+    reaper-bin \
+    safeeyes \
+    stacer \
+    steam \
+    thunderbird \
+    timeshift \
+    tlp \
+    wine \
+    vlc \
+    zathura \
+    zathura-pdf-mupdf \
+    zoom \

@@ -1,0 +1,23 @@
+#!/usr/bin/env sh
+
+# window manager and desktop
+sudo pacman --no-confirm --needed -S \
+    polybar \
+    bspwm \
+    sxhkd \
+
+# graphical
+sudo pacman --needed --noconfirm -S \
+    gtk3 \
+    picom \
+    xcompmgr \
+    xdotool \
+    xorg-server \
+    xorg-xbacklight \
+    xorg-xdpyinfo \
+    xorg-xinit \
+    xorg-xkill \
+    xorg-xprop \
+    xorg-xrandr \
+    xorg-xwininfo \
+    xwallpaper

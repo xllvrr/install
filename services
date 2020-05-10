@@ -1,0 +1,69 @@
+#!/usr/bin/env sh
+
+#================================================================================
+# services, tools and hardware drivers
+#================================================================================
+
+# services
+yay --no-confirm --needed -S \
+    bluez \
+    bluez-libs \
+    ecryptfs-utils \
+    epson-inkjet-printer-escpr \
+    epson-inkjet-printer-escpr2 \
+    fcitx \
+    fcitx-configtool \
+    fcitx-googlepinyin \
+    fcitx-qt4 \
+    gcc-fortran \
+    gradle \
+    libtool \
+    networkmanager-openvpn \
+    numlockx \
+    patchutils \
+    pdftk \
+    poppler-data \
+    powertop \
+    ps-utils \
+    s-nail \
+    tlp \
+    vulkan-intel \
+    vulkan-radeon \
+    xorg \
+    xdg-su \
+    xdg-utils \
+    yarn \
+
+# tools
+sudo pacman --no-confirm --needed -S \
+    bluez-utils \
+    bzip2 \
+    cpupower \
+    f2fs-tools \
+    flatpak \
+    hyphen-en \
+    inxi \
+    iputils \
+    memtest86+ \
+    mkinitcpio-openswap \
+    netpbm \
+    ntp \
+    udiskie \
+    xclip \
+    xfsprogs \
+    xorg-twm \
+    xtitle \
+    wmctrl \
+
+# hardware
+sudo pacman --no-confirm --needed -S \
+    amd-ucode \
+    libva-intel-driver \
+    libva-mesa-driver \
+    libva-vdpau-driver \
+    linuxconsole \
+    dosfstools \
+	exfat-utils \
+	intel-ucode \
+	ntfs-3g \
+    sysfsutils \

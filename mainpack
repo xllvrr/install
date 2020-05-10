@@ -1,0 +1,75 @@
+#!/usr/bin/env sh
+
+#================================================================================
+# main (essential) packages & fonts
+#================================================================================
+
+# main packages
+yay --no-confirm --needed -S \
+    alacritty \
+    acpi \
+    acpid \
+    appimagelauncher \
+    bluez-utils \
+    ctags \
+    dunst \
+    fzf \
+    maim \
+    make \
+    man \
+    man-db \
+    man-pages \
+    deja-dup \
+    dunst \
+    firefox \
+    feh \
+    ipython \
+    libnotify \
+    lf-git \
+    mono \
+    neovim \
+    pandoc \
+    pulsemixer \
+    pavucontrol \
+    pcmanfm \
+    picom \
+    python-pip \
+    python-pyqt5 \
+    python-pysmbc \
+    qt5-tools \
+    r \
+    reflector \
+    ripgrep \
+    ruby \
+    sxiv \
+    thunderbird \
+    timeshift \
+    zsh \
+    zsh-autosuggestions \
+    zsh-syntax-highlighting \
+    zsh-you-should-use \
+    spaceship-prompt-git \
+
+# fonts
+yay --no-confirm --needed -S \
+    adobe-source-han-sans-cn-fonts \
+    adobe-source-han-sans-otc-fonts \
+    adobe-source-han-sans-tw-fonts \
+    adobe-source-han-serif-cn-fonts \
+    adobe-source-han-serif-otc-fonts \
+    adobe-source-han-serif-tw-fonts \
+    gsfonts                         \
+    nerd-fonts-noto-sans-mono       \
+    noto-fonts                      \
+    noto-fonts-emoji                \
+    powerline-fonts                 \
+    ttf-bitstream-vera              \
+    ttf-droid                       \
+    ttf-font-awesome                \
+    ttf-inconsolata                 \
+    ttf-indic-otf                   \
+    ttf-jetbrains-mono              \
+    ttf-liberation                  \
+    ttf-ms-fonts                    \
+    ttf-vista-fonts                 \
+

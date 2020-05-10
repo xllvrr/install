@@ -2,10 +2,14 @@
 
 # This document is a script meant to aid with installation of my particular workflow
 
+# Setting time and date first
+timedatectl set-ntp true
+
 # Installing Software
-yay -S --sudoloop reflector
-# Installing Packages
-yay -S --needed --sudoloop --nouseask --nocleanmenu --nodiffmenu --removemake --noprovides - < pkglist.txt # Install all listed packages
+sh mainpack # main package list and fonts
+sh extra # extra packages
+sh services # services, tools and drivers
+sh graphics # graphics
 
 # Cloning Needed Git Repos
 # Dmenu
@@ -41,7 +45,12 @@ echo "Swappiness before patch: $(cat /proc/sys/vm/swappiness)"
 echo "vm.swappiness = 10" >> sudo /etc/sysctl.conf
 echo "Reboot in order to take effect"
 
-# Enabling Services
+# Enable Services
+sudo systemctl enable org.cups.cupsd
+sudo systemctl enable ssh.service
+sudo systemctl enable tlp
+
+# Symlink profile and zprofile
 sudo ln -fs .profile .zprofile
 
 # Restoring Configurations
@@ -60,9 +69,6 @@ config config --local status.showUntrackedFiles no
 # Install VimPlug
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
-
-# Install zsh plugins
-yay zsh-autosuggestions zsh-syntax-highlighting zsh-you-should-use spaceship-prompt-git
 
 # Configure xinit
 touch .xinitrc
