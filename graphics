@@ -1,12 +1,12 @@
 #!/usr/bin/env sh
 
 # window manager and desktop
-sudo pacman --no-confirm --needed -S \
+sudo pacman -S --no-confirm --needed \
     bspwm \
     sxhkd \
 
 # graphical
-sudo pacman --needed --noconfirm -S \
+sudo pacman -S --needed --noconfirm \
     gtk3 \
     picom \
     xcompmgr \

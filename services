@@ -5,7 +5,7 @@
 #================================================================================
 
 # services
-yay --sudoloop --removemake --needed -S \
+yay -S --sudoloop --removemake --needed \
     bluez \
     bluez-libs \
     ecryptfs-utils \
@@ -35,7 +35,7 @@ yay --sudoloop --removemake --needed -S \
     yarn \
 
 # tools
-sudo pacman --no-confirm --needed -S \
+sudo pacman -S --no-confirm --needed \
     bluez-utils \
     bzip2 \
     cpupower \
@@ -56,7 +56,7 @@ sudo pacman --no-confirm --needed -S \
     wmctrl \
 
 # hardware
-sudo pacman --no-confirm --needed -S \
+sudo pacman -S --no-confirm --needed \
     amd-ucode \
     libva-intel-driver \
     libva-mesa-driver \

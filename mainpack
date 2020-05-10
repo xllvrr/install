@@ -5,7 +5,7 @@
 #================================================================================
 
 # main packages
-yay --sudoloop --removemake --needed -S \
+yay -S --sudoloop --removemake --needed \
     alacritty \
     acpi \
     acpid \
@@ -52,7 +52,7 @@ yay --sudoloop --removemake --needed -S \
     spaceship-prompt-git \
 
 # fonts
-yay --sudoloop --removemake --needed -S \
+yay -S --sudoloop --removemake --needed\
     adobe-source-han-sans-cn-fonts \
     adobe-source-han-sans-otc-fonts \
     adobe-source-han-sans-tw-fonts \
