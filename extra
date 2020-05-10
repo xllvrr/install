@@ -16,7 +16,7 @@ yay -S --sudoloop --removemake --needed \
     exa \
     ffmpeg \
     gimp \
-    gufw \
+    ufw \
     hugin \
     insync \
     libreoffice-fresh \

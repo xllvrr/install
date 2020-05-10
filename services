@@ -6,8 +6,6 @@
 
 # services
 yay -S --sudoloop --removemake --needed \
-    bluez \
-    bluez-libs \
     ecryptfs-utils \
     epson-inkjet-printer-escpr \
     epson-inkjet-printer-escpr2 \
@@ -29,13 +27,12 @@ yay -S --sudoloop --removemake --needed \
     tlp \
     vulkan-intel \
     vulkan-radeon \
-    xorg \
     xdg-su \
     xdg-utils \
     yarn \
 
 # tools
-sudo pacman -S --no-confirm --needed \
+sudo pacman -S --noconfirm --needed \
     bluez-utils \
     bzip2 \
     cpupower \
@@ -48,22 +45,19 @@ sudo pacman -S --no-confirm --needed \
     mkinitcpio-openswap \
     netpbm \
     ntp \
+    picom \
     udiskie \
     xclip \
     xfsprogs \
-    xorg-twm \
     xtitle \
     wmctrl \
 
 # hardware
-sudo pacman -S --no-confirm --needed \
+sudo pacman -S --noconfirm --needed \
     amd-ucode \
+	intel-ucode \
     libva-intel-driver \
     libva-mesa-driver \
     libva-vdpau-driver \
     linuxconsole \
-    dosfstools \
-	exfat-utils \
-	intel-ucode \
-	ntfs-3g \
     sysfsutils \

@@ -1,10 +1,5 @@
 #!usr/bin/env sh
 
-# This document is a script meant to aid with installation of my particular workflow
-
-# Setting time and date first
-timedatectl set-ntp true
-
 # Restoring Configurations
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 echo ".dotfiles" >> .gitignore
@@ -41,7 +36,6 @@ echo "vm.swappiness = 10" >> sudo /etc/sysctl.conf
 echo "Reboot in order to take effect"
 
 # Enable Services
-sudo systemctl enable org.cups.cupsd
 sudo pacman -S tlp
 sudo systemctl enable tlp
 
@@ -55,7 +49,9 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 # Configure xinit
 touch .xinitrc
 touch .Xauthority
-echo "sxhkd & exec bspwm" >> sudo .xinitrc
+echo "numlockx &
+sxhkd & 
+exec bspwm" >> sudo .xinitrc
 
 # Reminders
 echo "Setup Insync, Joplin, Rambox, Thunderbird, Discord, Firefox, Steam, Stacer, Gufw, Deja Dup & Timeshift"

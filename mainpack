@@ -27,6 +27,7 @@ yay -S --sudoloop --removemake --needed \
     libnotify \
     lf-git \
     mono \
+    mlocate \
     neovim \
     pandoc \
     polybar \
