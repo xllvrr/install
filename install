@@ -6,6 +6,7 @@
 timedatectl set-ntp true
 
 # Installing Software
+yay -Syu
 sh mainpack # main package list and fonts
 sh extra # extra packages
 sh services # services, tools and drivers
