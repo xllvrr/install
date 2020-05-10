@@ -5,25 +5,19 @@
 # Setting time and date first
 timedatectl set-ntp true
 
-# Installing Software
-yay -Syu
-sh mainpack # main package list and fonts
-sh extra # extra packages
-sh services # services, tools and drivers
-sh graphics # graphics
+# Restoring Configurations
+alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+echo ".dotfiles" >> .gitignore
+git clone --bare https://github.com/xllvrr/dotfiles.git $HOME/.dotfiles
+cd ~
 
-# Cloning Needed Git Repos
-# Dmenu
-CURRENT_DIR="$PWD"
-git clone https://github.com/LukeSmithxyz/dmenu.git ~/repos/dmenu
-cd ~/repos/dmenu || exit
-make && sudo make install
-cd "$CURRENT_DIR" || exit
-# Tabbed
-git clone https://git.suckless.org/tabbed ~/repos/tabbed
-cd ~/repos/tabbed || exit
-make && sudo make install
-cd "$CURRENT_DIR" || exit
+mkdir -p .config-backup && \
+config checkout 2>&1 | egrep "\s+\." | awk {'print $1'} | \
+xargs -I{} mv {} .config-backup/{}
+
+config checkout
+config config --local status.showUntrackedFiles no
+
 # Scripts
 git clone https://github.com/xllvrr/scripts.git ~/repos/scripts
 
@@ -54,19 +48,6 @@ sudo systemctl enable tlp
 # Symlink profile and zprofile
 sudo ln -fs .profile .zprofile
 
-# Restoring Configurations
-alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-echo ".dotfiles" >> .gitignore
-git clone --bare https://github.com/xllvrr/dotfiles.git $HOME/.dotfiles
-cd ~
-
-mkdir -p .config-backup && \
-config checkout 2>&1 | egrep "\s+\." | awk {'print $1'} | \
-xargs -I{} mv {} .config-backup/{}
-
-config checkout
-config config --local status.showUntrackedFiles no
-
 # Install VimPlug
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
@@ -74,16 +55,8 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 # Configure xinit
 touch .xinitrc
 touch .Xauthority
-echo "sxhkd & \ exec bspwm" >> sudo .xinitrc
-
-# Install TeXLive
-yay texlive-installer
-/opt/texlive-installer/install-tl
-
-# Remove orphans
-yay -Yc
-pacman -Rs $(pacman -Qqdt)
+echo "sxhkd & exec bspwm" >> sudo .xinitrc
 
 # Reminders
-echo "Setup Insync, Joplin, Rambox, Thunderbird, Texlive, Discord, Firefox, Steam, Stacer, Gufw, Deja Dup & Timeshift"
-echo "Key in Code for Reaper"
+echo "Setup Insync, Joplin, Rambox, Thunderbird, Discord, Firefox, Steam, Stacer, Gufw, Deja Dup & Timeshift"
+echo "Key in code for Reaper and install TeXLive"

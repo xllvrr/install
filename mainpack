@@ -74,3 +74,15 @@ yay -S --sudoloop --removemake --needed\
     ttf-ms-fonts                    \
     ttf-vista-fonts                 \
 
+# dmenu
+CURRENT_DIR="$PWD"
+git clone https://github.com/LukeSmithxyz/dmenu.git ~/repos/dmenu
+cd ~/repos/dmenu || exit
+make && sudo make install
+cd "$CURRENT_DIR" || exit
+
+# tabbed
+git clone https://git.suckless.org/tabbed ~/repos/tabbed
+cd ~/repos/tabbed || exit
+make && sudo make install
+cd "$CURRENT_DIR" || exit
