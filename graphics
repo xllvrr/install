@@ -2,7 +2,6 @@
 
 # window manager and desktop
 sudo pacman --no-confirm --needed -S \
-    polybar \
     bspwm \
     sxhkd \
 

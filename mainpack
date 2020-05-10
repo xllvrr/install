@@ -29,6 +29,7 @@ yay --sudoloop --removemake --needed -S \
     mono \
     neovim \
     pandoc \
+    polybar \
     pulsemixer \
     pavucontrol \
     pcmanfm \
