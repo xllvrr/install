@@ -48,8 +48,6 @@ yay -S --sudoloop --removemake --needed \
     zsh \
     zsh-autosuggestions \
     zsh-syntax-highlighting \
-
-yay -S --sudoloop --removemake --needed
     zsh-you-should-use \
     spaceship-prompt-git \
 
