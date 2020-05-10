@@ -5,7 +5,7 @@
 #================================================================================
 
 # useful tools and other workflow packages
-yay --no-confirm --needed -S \
+yay --sudoloop --removemake --needed -S \
     android-tools \
     calibre \
     checkbashisms \

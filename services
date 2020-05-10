@@ -5,7 +5,7 @@
 #================================================================================
 
 # services
-yay --no-confirm --needed -S \
+yay --sudoloop --removemake --needed -S \
     bluez \
     bluez-libs \
     ecryptfs-utils \
