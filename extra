@@ -33,4 +33,4 @@ yay -S --sudoloop --removemake --needed \
     vlc \
     zathura \
     zathura-pdf-mupdf \
-    zoom \
+    zoom 

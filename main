@@ -50,7 +50,7 @@ yay -S --sudoloop --removemake --needed \
     zsh-autosuggestions \
     zsh-syntax-highlighting \
     zsh-you-should-use \
-    spaceship-prompt-git \
+    spaceship-prompt-git 
 
 # fonts
 yay -S --sudoloop --removemake --needed\
@@ -73,7 +73,7 @@ yay -S --sudoloop --removemake --needed\
     ttf-jetbrains-mono              \
     ttf-liberation                  \
     ttf-ms-fonts                    \
-    ttf-vista-fonts                 \
+    ttf-vista-fonts                 
 
 # dmenu
 CURRENT_DIR="$PWD"

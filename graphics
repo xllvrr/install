@@ -3,7 +3,7 @@
 # window manager and desktop
 sudo pacman -S --noconfirm --needed \
     bspwm \
-    sxhkd \
+    sxhkd 
 
 # graphical
 sudo pacman -S --needed --noconfirm \

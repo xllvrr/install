@@ -29,7 +29,7 @@ yay -S --sudoloop --removemake --needed \
     vulkan-radeon \
     xdg-su \
     xdg-utils \
-    yarn \
+    yarn 
 
 # tools
 sudo pacman -S --noconfirm --needed \
@@ -50,7 +50,7 @@ sudo pacman -S --noconfirm --needed \
     xclip \
     xfsprogs \
     xtitle \
-    wmctrl \
+    wmctrl 
 
 # hardware
 sudo pacman -S --noconfirm --needed \
@@ -60,4 +60,4 @@ sudo pacman -S --noconfirm --needed \
     libva-mesa-driver \
     libva-vdpau-driver \
     linuxconsole \
-    sysfsutils \
+    sysfsutils 
