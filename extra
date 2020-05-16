@@ -19,6 +19,7 @@ yay -S --sudoloop --removemake --needed \
     ufw \
     hugin \
     insync \
+    joplin \
     libreoffice-fresh \
     lutris \
     rambox-bin \
