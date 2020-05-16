@@ -31,7 +31,7 @@ yay -S --sudoloop --removemake --needed \
     timeshift \
     tlp \
     wine \
-    vlc \
+    mpv \
     zathura \
     zathura-pdf-mupdf \
     zoom 
