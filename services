@@ -32,7 +32,7 @@ yay -S --sudoloop --removemake --needed \
     yarn 
 
 # tools
-sudo pacman -S --noconfirm --needed \
+yay -S --sudoloop --removemake --needed \
     bluez-utils \
     bzip2 \
     cpupower \
@@ -51,13 +51,3 @@ sudo pacman -S --noconfirm --needed \
     xfsprogs \
     xtitle \
     wmctrl 
-
-# hardware
-sudo pacman -S --noconfirm --needed \
-    amd-ucode \
-	intel-ucode \
-    libva-intel-driver \
-    libva-mesa-driver \
-    libva-vdpau-driver \
-    linuxconsole \
-    sysfsutils 
