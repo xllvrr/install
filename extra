@@ -14,7 +14,6 @@ yay -S --sudoloop --removemake --needed \
     discord \
     dragon-drag-and-drop \
     exa \
-    ffmpeg \
     gimp \
     ufw \
     hugin \
