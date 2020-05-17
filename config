@@ -71,7 +71,12 @@ fi
 if [ -f "$usermodmap" ]; then
 xmodmap "$usermodmap"
 fi
+
+# export GTK_IM_MODULE=fcitx
+# export QT_IM_MODULE=fcitx
+# export XMODIFIERS=@im=fcitx
 " >> sudo .xinitrc
+
 
 # Reminders
 echo "Setup Insync, Joplin, Rambox, Thunderbird, Discord, Firefox, Steam, Stacer, Gufw, Deja Dup & Timeshift"
