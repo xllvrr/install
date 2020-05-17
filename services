@@ -27,7 +27,7 @@ yay -S --sudoloop --removemake --needed \
     tlp \
     vulkan-intel \
     vulkan-radeon \
-    xdg-su \
+    xdg-su-git \
     xdg-utils \
     yarn 
 
