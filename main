@@ -9,7 +9,6 @@ yay -S --sudoloop --removemake --needed \
     alacritty \
     acpi \
     acpid \
-    appimagelauncher \
     bluez-utils \
     ctags \
     dunst \
