@@ -46,38 +46,8 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 # Configure xinit
 touch .xinitrc
 touch .Xauthority
-echo "
-sxhkd & 
-exec bspwm
-
-userresources=$HOME/.Xresources
-usermodmap=$HOME/.Xmodmap
-sysresources=/etc/X11/xinit/.Xresources
-
-# merge in defaults and keymaps
-
-if [ -f $sysresources ]; then
-xrdb -merge $sysresources
-fi
-
-if [ -f $sysmodmap ]; then
-xmodmap $sysmodmap
-fi
-
-if [ -f "$userresources" ]; then
-xrdb -merge "$userresources"
-fi
-
-if [ -f "$usermodmap" ]; then
-xmodmap "$usermodmap"
-fi
-
-# export GTK_IM_MODULE=fcitx
-# export QT_IM_MODULE=fcitx
-# export XMODIFIERS=@im=fcitx
-" >> sudo .xinitrc
-
+mv install/.xinitrc ~/.xinitrc
 
 # Reminders
-echo "Setup Insync, Joplin, Rambox, Thunderbird, Discord, Firefox, Steam, Stacer, Gufw, Deja Dup & Timeshift"
+echo "Setup Insync, Rambox, Thunderbird, Discord, Firefox, Steam, Stacer, Ufw, Deja Dup & Timeshift"
 echo "Key in code for Reaper and install TeXLive"
