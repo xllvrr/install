@@ -4,6 +4,8 @@
 # extra packages
 #================================================================================
 
+pacman -Sl multilib
+
 # useful tools and other workflow packages
 yay -S --sudoloop --removemake --needed \
     android-tools \
