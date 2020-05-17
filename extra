@@ -27,6 +27,7 @@ yay -S --sudoloop --removemake --needed \
     safeeyes \
     stacer \
     steam \
+    wine \
     thunderbird \
     timeshift \
     tlp \
