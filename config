@@ -51,3 +51,4 @@ mv install/.xinitrc ~/.xinitrc
 # Reminders
 echo "Setup Insync, Rambox, Thunderbird, Discord, Firefox, Steam, Stacer, Ufw, Deja Dup & Timeshift"
 echo "Key in code for Reaper and install TeXLive"
+echo "Also install minecraft and other games"
