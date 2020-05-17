@@ -16,7 +16,4 @@ sudo pacman -S --needed --noconfirm \
     xorg-xdpyinfo \
     xorg-xinit \
     xorg-xkill \
-    xorg-xprop \
-    xorg-xrandr \
     xorg-xwininfo \
-    xwallpaper
