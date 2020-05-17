@@ -23,7 +23,7 @@ chsh -s /usr/bin/zsh
 pip3 install --user pynvim flake8 autopep8 pylint mysql-connector
 
 # Restore R setup
-Rscript Rinstall.R
+Rscript ~/install/Rinstall.R
 
 # Setting Up Fcitx
 echo "export GTK_IM_MODULE=fcitx
