@@ -22,7 +22,6 @@ yay -S --sudoloop --removemake --needed \
     insync \
     libreoffice-fresh \
     lutris \
-    rambox-bin \
     reaper-bin \
     safeeyes \
     stacer \
