@@ -76,7 +76,7 @@ yay -S --sudoloop --removemake --needed\
 
 # dmenu
 CURRENT_DIR="$PWD"
-git clone https://github.com/LukeSmithxyz/dmenu.git ~/repos/dmenu
+git clone https://github.com/xllvrr/dmenu.git ~/repos/dmenu
 cd ~/repos/dmenu || exit
 make && sudo make install
 cd "$CURRENT_DIR" || exit
