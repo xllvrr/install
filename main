@@ -24,10 +24,10 @@ yay -S --sudoloop --removemake --needed \
     feh \
     ipython \
     libnotify \
-    lf-git \
     mono \
     mlocate \
     neovim \
+    nnn \
     pandoc \
     polybar \
     pulsemixer \
