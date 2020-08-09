@@ -1,10 +1,5 @@
 #!/bin/sh
 
-## Connect to Internet
-connmanctl scan wifi
-connmanctl
-connmanctl autoconnect on
-
 ## Set keyboard layout
 loadkeys en
 
@@ -35,11 +30,11 @@ ln -sf /usr/share/zoneinfo/Region/City /etc/localtime
 hwclock --systohc
 
 ## Localization
-pacman -S vim
+sudo pacman -S vim
 vim /etc/locale.gen
 
 ## Boot Loader
-pacman -S syslinux os-prober
+sudo pacman -S syslinux os-prober
 syslinux-install_update -i -a -m
 
 ## Add User
