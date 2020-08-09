@@ -1,0 +1,57 @@
+#!/bin/sh
+
+## Connect to Internet
+connmanctl scan wifi
+connmanctl
+connmanctl autoconnect on
+
+## Set keyboard layout
+loadkeys en
+
+## Partition disk
+mkfs.ext4 -L ROOT /dev/sda2
+mkfs.ext4 -L HOME /dev/sda3
+mkfs.ext4 -L BOOT /dev/sda4
+mkswap -L SWAP /dev/sda1
+## For UEFI Installation
+# mkfs.fat -F 32 /dev/sda4
+
+## Mount Partitions
+swapon /dev/disk/by-label/SWAP
+mount /dev/disk/by-label/ROOT /mnt
+mkdir /mnt/boot
+mkdir /mnt/home
+mount /dev/disk/by-label/HOME /mnt/home
+mount /dev/disk/by-label/BOOT /mnt/boot
+
+## Install Base System
+basestrap /mnt base base-devel runit elogind-runit
+basestrap /mnt linux linux-firmware
+fstabgen -U /mnt >> /mnt/etc/fstab
+artools-chroot /mnt
+
+## Set System Clock
+ln -sf /usr/share/zoneinfo/Region/City /etc/localtime
+hwclock --systohc
+
+## Localization
+pacman -S vim
+vim /etc/locale.gen
+
+## Boot Loader
+pacman -S syslinux os-prober
+syslinux-install_update -i -a -m
+
+## Add User
+passwd
+
+useradd -m xllvr
+passwd xllvr
+
+echo "artix-main" >> sudo /etc/hostname
+pacman -S NetworkManager
+pacman -S xorg --ignore xorg-server-xdmx
+
+exit
+umount -R /mnt
+reboot
