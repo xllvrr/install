@@ -17,3 +17,4 @@ sudo pacman -S --needed --noconfirm \
     xorg-xinit \
     xorg-xkill \
     xorg-xwininfo \
+    lxappearance-gtk3
