@@ -22,6 +22,9 @@ chsh -s /usr/bin/zsh
 # Install Python Stuff
 pip3 install --user pynvim flake8 autopep8 pylint mysql-connector
 
+# Install R Stuff
+Rscript Rpack.R
+
 # Setting Up Fcitx
 echo "export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
