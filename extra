@@ -24,6 +24,7 @@ yay -S --sudoloop --removemake --needed \
     lutris \
     reaper-bin \
     safeeyes \
+    shotcut \
     stacer \
     steam \
     wine \
