@@ -3,6 +3,9 @@ polybarlaunch &
 sxhkd & 
 exec bspwm
 
+# Turn off scren blanking
+xset s 3600 3600 && xset -dpms
+
 # User Resources
 userresources=$HOME/.Xresources
 usermodmap=$HOME/.Xmodmap
@@ -28,4 +31,4 @@ fi
 
 export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
-export XMODIFIERS=@im=fcitx
+export XMODIFIERS="@im=fcitx"
