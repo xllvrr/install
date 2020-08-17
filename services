@@ -48,6 +48,8 @@ yay -S --sudoloop --removemake --needed \
     picom \
     udiskie \
     xclip \
+    xorg-xclipboard \
+    xclip \
     xfsprogs \
     xtitle \
     wmctrl 
