@@ -61,6 +61,7 @@ yay -S --sudoloop --removemake --needed\
     adobe-source-han-serif-tw-fonts \
     gsfonts                         \
     nerd-fonts-noto-sans-mono       \
+    nerd-fonts-hack                 \
     noto-fonts                      \
     noto-fonts-emoji                \
     powerline-fonts                 \
