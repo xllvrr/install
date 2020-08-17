@@ -31,6 +31,8 @@ yay -S --sudoloop --removemake --needed \
     thunderbird \
     timeshift \
     tlp \
+    tcl \
+    tk \
     mpv \
     zathura \
     zathura-pdf-mupdf \
