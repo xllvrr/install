@@ -41,6 +41,7 @@ yay -S --sudoloop --removemake --needed \
     hyphen-en \
     inxi \
     iputils \
+    lib32-gnutls \
     memtest86+ \
     mkinitcpio-openswap \
     netpbm \
