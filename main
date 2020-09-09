@@ -29,6 +29,7 @@ yay -S --sudoloop --removemake --needed \
     neovim \
     nnn \
     pandoc \
+    pandoc-citeproc \
     polybar \
     pulsemixer \
     pavucontrol \
