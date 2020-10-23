@@ -13,7 +13,6 @@ yay -S --sudoloop --removemake --needed \
     checkbashisms \
     colorpicker \
     darktable \
-    discord \
     dragon-drag-and-drop \
     exa \
     gimp \
@@ -21,6 +20,7 @@ yay -S --sudoloop --removemake --needed \
     hugin \
     insync \
     libreoffice-fresh \
+    lightcord \
     lutris \
     reaper-bin \
     safeeyes \
