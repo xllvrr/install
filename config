@@ -20,7 +20,8 @@ git clone https://github.com/xllvrr/scripts.git ~/repos/scripts
 chsh -s /usr/bin/zsh
 
 # Install Python Stuff
-pip3 install --user pynvim flake8 autopep8 pylint mysql-connector
+sudo pip install --user pynvim flake8 autopep8 pylint mysql-connector ipykernel jupyter
+pip install --user pynvim flake8 autopep8 pylint mysql-connector ipykernel jupyter
 
 # Install R Stuff
 Rscript Rpack.R
