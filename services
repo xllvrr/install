@@ -42,13 +42,15 @@ yay -S --sudoloop --removemake --needed \
     inxi \
     iputils \
     lib32-gnutls \
+    lynx \
     memtest86+ \
     mkinitcpio-openswap \
     netpbm \
     ntp \
     picom \
     udiskie \
+    urlview \
     xclip \
     xfsprogs \
     xtitle \
-    wmctrl 
+    wmctrl \
