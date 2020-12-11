@@ -27,6 +27,7 @@ yay -S --sudoloop --removemake --needed \
     mono \
     mlocate \
     neovim \
+    neomutt \
     nnn \
     pandoc \
     pandoc-citeproc \
@@ -42,6 +43,7 @@ yay -S --sudoloop --removemake --needed \
     r \
     reflector \
     ripgrep \
+    rofi \
     ruby \
     sxiv \
     thunderbird \
@@ -75,13 +77,6 @@ yay -S --sudoloop --removemake --needed\
     ttf-liberation                  \
     ttf-ms-fonts                    \
     ttf-vista-fonts                 
-
-# dmenu
-CURRENT_DIR="$PWD"
-git clone https://github.com/xllvrr/dmenu.git ~/repos/dmenu
-cd ~/repos/dmenu || exit
-make && sudo make install
-cd "$CURRENT_DIR" || exit
 
 # tabbed
 git clone https://git.suckless.org/tabbed ~/repos/tabbed

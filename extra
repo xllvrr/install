@@ -18,7 +18,6 @@ yay -S --sudoloop --removemake --needed \
     gimp \
     ufw \
     hugin \
-    insync \
     libreoffice-fresh \
     lightcord \
     lutris \
