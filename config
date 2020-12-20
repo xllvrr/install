@@ -24,7 +24,7 @@ sudo pip install --user pynvim flake8 autopep8 pylint mysql-connector ipykernel 
 pip install --user pynvim flake8 autopep8 pylint mysql-connector ipykernel jupyter
 
 # Install R Stuff
-Rscript Rpack.R
+Rscript ./R-reinstall.R
 
 # Setting Up Fcitx
 echo "export GTK_IM_MODULE=fcitx
