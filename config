@@ -16,6 +16,10 @@ config config --local status.showUntrackedFiles no
 # Scripts
 git clone https://github.com/xllvrr/scripts.git ~/repos/scripts
 
+# Change Diff Tool to VimDiff
+git config --global diff.tool vimdiff
+git config --global merge.tool vimdiff
+
 # Change Default Shell to Zsh
 chsh -s /usr/bin/zsh
 
