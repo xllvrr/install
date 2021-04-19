@@ -23,3 +23,4 @@ Shiny
 stringr
 stringi
 nlme
+readr
