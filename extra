@@ -32,6 +32,7 @@ yay -S --sudoloop --removemake --needed \
     tlp \
     tcl \
     tk \
+    transmission-cli \
     mpv \
     zathura \
     zathura-pdf-mupdf \
