@@ -50,6 +50,7 @@ yay -S --sudoloop --removemake --needed \
     netpbm \
     ntp \
     rclone \
+    syncthing \
     picom \
     udiskie \
     urlview \
