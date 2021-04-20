@@ -18,9 +18,11 @@ yay -S --sudoloop --removemake --needed \
     gimp \
     ufw \
     hugin \
+    jdk-openjdk \
     libreoffice-fresh \
     lightcord \
     lutris \
+    npm \
     reaper-bin \
     safeeyes \
     shotcut \
