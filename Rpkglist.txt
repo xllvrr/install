@@ -13,7 +13,7 @@ tibble
 lme4
 MASS
 tinytex
-BART
+bartMachine
 bartCause
 RColorBrewer
 rmarkdown
@@ -24,3 +24,4 @@ stringr
 stringi
 nlme
 readr
+languageserver
