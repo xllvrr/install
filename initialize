@@ -3,6 +3,9 @@
 ## Set keyboard layout
 loadkeys en
 
+## Set datetime
+timedatectl set-ntp true
+
 ## Partition disk
 mkfs.ext4 -L ROOT /dev/sda2
 mkfs.ext4 -L HOME /dev/sda3
@@ -20,8 +23,8 @@ mount /dev/disk/by-label/HOME /mnt/home
 mount /dev/disk/by-label/BOOT /mnt/boot
 
 ## Install Base System
-basestrap /mnt base base-devel runit elogind-runit
-basestrap /mnt linux linux-firmware
+basestrap /mnt base base-devel linux linux-firmware 
+basestrap /mnt runit elogind-runit
 fstabgen -U /mnt >> /mnt/etc/fstab
 artools-chroot /mnt
 
