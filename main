@@ -22,6 +22,7 @@ yay -S --sudoloop --removemake --needed \
     deja-dup \
     dunst \
     feh \
+    firefox \
     ipython \
     libnotify \
     mono \
