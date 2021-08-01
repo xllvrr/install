@@ -23,6 +23,7 @@ yay -S --sudoloop --removemake --needed \
     lightcord \
     lutris \
     npm \
+    obs-studio-tytan652 \
     reaper-bin \
     safeeyes \
     shotcut \
