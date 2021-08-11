@@ -15,6 +15,7 @@ yay -S --sudoloop --removemake --needed \
     darktable \
     dragon-drag-and-drop \
     exa \
+    easyeffects \
     gimp \
     ufw \
     hugin \
@@ -24,6 +25,8 @@ yay -S --sudoloop --removemake --needed \
     lutris \
     npm \
     obs-studio-tytan652 \
+    pipewire \
+    pipewire-pulse \
     reaper-bin \
     safeeyes \
     shotcut \
