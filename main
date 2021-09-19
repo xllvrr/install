@@ -10,10 +10,11 @@ yay -S --sudoloop --removemake --needed \
     acpi \
     acpid \
     bluez-utils \
-    chromium \
+    # chromium \
     ctags \
-    dunst \
+    # dunst \
     fzf \
+    lain-git \
     maim \
     make \
     man \
@@ -32,7 +33,7 @@ yay -S --sudoloop --removemake --needed \
     nnn \
     pandoc \
     pandoc-citeproc \
-    polybar \
+    # polybar \
     pulsemixer \
     pavucontrol \
     pcmanfm \
