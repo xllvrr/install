@@ -20,6 +20,7 @@ yay -S --sudoloop --removemake --needed \
     ufw \
     hugin \
     jdk-openjdk \
+    lain-git \
     libreoffice-fresh \
     lightcord \
     lutris \
