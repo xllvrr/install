@@ -6,9 +6,8 @@
 
 # services
 yay -S --sudoloop --removemake --needed \
+    cups \
     ecryptfs-utils \
-    epson-inkjet-printer-escpr \
-    epson-inkjet-printer-escpr2 \
     fcitx \
     fcitx-configtool \
     fcitx-googlepinyin \
@@ -49,8 +48,8 @@ yay -S --sudoloop --removemake --needed \
     mkinitcpio-openswap \
     netpbm \
     ntp \
-    rclone \
     syncthing \
+    system-config-printer \
     tidy \
     picom \
     udiskie \
