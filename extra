@@ -15,7 +15,6 @@ yay -S --sudoloop --removemake --needed \
     darktable \
     dragon-drag-and-drop \
     exa \
-    easyeffects \
     gimp \
     ufw \
     hugin \

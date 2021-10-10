@@ -16,6 +16,7 @@ yay -S --sudoloop --removemake --needed \
     gradle \
     libtool \
     networkmanager-openvpn \
+    ninja \
     numlockx \
     patchutils \
     pdftk \
