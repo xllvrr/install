@@ -49,7 +49,6 @@ yay -S --sudoloop --removemake --needed \
     ruby \
     sxiv \
     thunderbird \
-    timeshift \
     zsh \
     zsh-autosuggestions \
     zsh-syntax-highlighting \
