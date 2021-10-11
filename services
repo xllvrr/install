@@ -17,6 +17,7 @@ yay -S --sudoloop --removemake --needed \
     libtool \
     networkmanager-openvpn \
     ninja \
+    npm \
     numlockx \
     patchutils \
     pdftk \
