@@ -24,6 +24,9 @@ git config --global difftool.prompt false
 # Change Default Shell to Zsh
 chsh -s /usr/bin/zsh
 
+# Packer Sync
+nvim --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync'
+
 # Install Python Stuff
 sudo pip install --user pynvim flake8 autopep8 pylint mysql-connector ipykernel jupyter
 pip install --user pynvim flake8 autopep8 pylint mysql-connector ipykernel jupyter
