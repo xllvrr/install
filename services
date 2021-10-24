@@ -53,6 +53,7 @@ yay -S --sudoloop --removemake --needed \
     syncthing \
     system-config-printer \
     tidy \
+    tmux \
     picom \
     udiskie \
     urlview \
