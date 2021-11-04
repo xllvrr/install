@@ -8,10 +8,12 @@
 yay -S --sudoloop --removemake --needed \
     cups \
     ecryptfs-utils \
-    fcitx \
-    fcitx-configtool \
-    fcitx-googlepinyin \
-    fcitx-qt4 \
+    fcitx5 \
+    fcitx5-configtool \
+    fcitx5-chinese-addons \
+    fcitx5-mozc \
+    fcitx5-qt \
+    fcitx5-gtk \
     gcc-fortran \
     gradle \
     libtool \
