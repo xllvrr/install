@@ -10,10 +10,11 @@ yay -S --sudoloop --removemake --needed \
     ecryptfs-utils \
     fcitx5 \
     fcitx5-configtool \
-    fcitx5-chinese-addons \
+    fcitx5-rime \
     fcitx5-mozc \
     fcitx5-qt \
     fcitx5-gtk \
+    fcitx5-material-color \
     gcc-fortran \
     gradle \
     libtool \
