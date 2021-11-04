@@ -51,9 +51,9 @@ cd ../..
 cd
 
 # Setting Up Fcitx
-echo "export GTK_IM_MODULE=fcitx
-export QT_IM_MODULE=fcitx
-export XMODIFIERS=@im=fcitx" >> sudo /etc/profile
+echo "export GTK_IM_MODULE=fcitx5
+export QT_IM_MODULE=fcitx5
+export XMODIFIERS=@im=fcitx5" >> sudo /etc/profile
 
 # Optimizing Swappiness
 echo "Swappiness before patch: $(cat /proc/sys/vm/swappiness)"
