@@ -38,6 +38,7 @@ yay -S --sudoloop --removemake --needed \
     python-pip \
     python-pyqt5 \
     python-pysmbc \
+    python-virtualenv \
     qt5-tools \
     r \
     reflector \
