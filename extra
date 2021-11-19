@@ -8,6 +8,7 @@ pacman -Sl multilib
 
 # useful tools and other workflow packages
 yay -S --sudoloop --removemake --needed \
+    a2jmidid \
     android-tools \
     calibre \
     checkbashisms \
@@ -28,6 +29,8 @@ yay -S --sudoloop --removemake --needed \
     obs-studio-tytan652 \
     pipewire \
     pipewire-pulse \
+    pulseaudio-alsa \
+    qjackctl \
     reaper-bin \
     safeeyes \
     shotcut \
