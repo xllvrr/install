@@ -21,6 +21,7 @@ yay -S --sudoloop --removemake --needed \
     deja-dup \
     dunst \
     feh \
+    firefox \ 
     ipython \
     libnotify \
     mono \
@@ -46,7 +47,6 @@ yay -S --sudoloop --removemake --needed \
     ruby \
     sxiv \
     thunderbird \
-    vivaldi-stable \
     zsh \
     zsh-autosuggestions \
     zsh-syntax-highlighting \
