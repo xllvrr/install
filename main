@@ -46,6 +46,7 @@ yay -S --sudoloop --removemake --needed \
     rofi \
     ruby \
     sxiv \
+    texlive-core \
     thunderbird \
     zsh \
     zsh-autosuggestions \
