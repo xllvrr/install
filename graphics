@@ -8,6 +8,7 @@ sudo pacman -S --noconfirm --needed \
 
 # graphical
 sudo pacman -S --needed --noconfirm \
+    arandr \
     gtk3 \
     picom \
     xcompmgr \
