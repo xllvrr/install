@@ -28,8 +28,7 @@ chsh -s /usr/bin/zsh
 nvim --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync'
 
 # Install Python Stuff
-sudo pip install --user pynvim flake8 autopep8 pylint mysql-connector ipykernel jupyter
-pip install --user pynvim flake8 autopep8 pylint mysql-connector ipykernel jupyter
+sudo pip install -r requirements.txt
 sudo npm i -g pyright
 
 # Install R Stuff
