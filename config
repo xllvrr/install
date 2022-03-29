@@ -28,7 +28,7 @@ chsh -s /usr/bin/zsh
 nvim --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync'
 
 # Install Python Stuff
-sudo pip install -r requirements.txt
+sudo pip install -r pyreq.txt
 sudo npm i -g pyright
 
 # Install R Stuff
