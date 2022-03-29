@@ -15,13 +15,12 @@ yay -S --sudoloop --removemake --needed \
     darktable \
     dragon-drag-and-drop \
     exa \
-    gimp \
+    krita \
     ufw \
     hugin \
     jdk-openjdk \
     lain-git \
     libreoffice-fresh \
-    lightcord \
     lsp-plugins \
     lutris \
     npm \
@@ -36,7 +35,6 @@ yay -S --sudoloop --removemake --needed \
     steam \
     wine \
     thunderbird \
-    timeshift \
     tlp \
     tcl \
     tk \
