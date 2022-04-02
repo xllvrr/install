@@ -23,7 +23,6 @@ yay -S --sudoloop --removemake --needed \
     libreoffice-fresh \
     lsp-plugins \
     lutris \
-    npm \
     obs-studio-tytan652 \
     pipewire \
     pipewire-pulse \

@@ -27,8 +27,9 @@ yay -S --sudoloop --removemake --needed \
     mono \
     mlocate \
     neovim \
-    neomutt \
     nnn \
+    nodejs \
+    npm \
     pandoc \
     pandoc-citeproc \
     pulsemixer \

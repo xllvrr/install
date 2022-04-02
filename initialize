@@ -46,7 +46,7 @@ passwd
 useradd -m xllvr
 passwd xllvr
 
-echo "artix-main" >> sudo /etc/hostname
+echo "archmain" >> sudo /etc/hostname
 pacman -S NetworkManager
 pacman -S xorg --ignore xorg-server-xdmx
 
