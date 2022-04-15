@@ -28,13 +28,16 @@ yay -S --sudoloop --removemake --needed \
     obs-studio-tytan652 \
     pipewire \
     pipewire-pulse \
-    pulseaudio-alsa \
+    pipewire-alsa \
+    pipewire-jack \
+    qjackctl \
     reaper-bin \
     safeeyes \
     shotcut \
     stacer \
     steam \
     wine \
+    wireplumber \
     thunderbird \
     tlp \
     tcl \
