@@ -22,7 +22,6 @@ yay -S --sudoloop --removemake --needed \
     lain-git \
     libreoffice-fresh \
     libwacom \
-    lsp-plugins \
     lutris \
     mpv \
     obs-studio-tytan652 \
@@ -30,7 +29,7 @@ yay -S --sudoloop --removemake --needed \
     pipewire-pulse \
     pipewire-alsa \
     pipewire-jack \
-    qjackctl \
+    qpwgraph \
     reaper-bin \
     safeeyes \
     shotcut \

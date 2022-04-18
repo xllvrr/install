@@ -2,8 +2,6 @@
 
 # window manager and desktop
 sudo pacman -S --noconfirm --needed \
-    bspwm \
-    sxhkd \
     awesome \
 
 # graphical
