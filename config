@@ -49,6 +49,9 @@ cd ../..
 ./3rd/luamake/luamake rebuild
 cd
 
+# Install Other NPM Stuff
+sudo npm i -g neovim expo nodemon yarn nativefier
+
 # Setting Up Fcitx
 echo "export GTK_IM_MODULE=fcitx5
 export QT_IM_MODULE=fcitx5
