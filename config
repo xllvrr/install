@@ -29,13 +29,12 @@ nvim --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync'
 
 # Install Python Stuff
 sudo pip install -r pyreq.txt
-sudo npm i -g pyright
 
 # Install R Stuff
 Rscript ./R-reinstall.R
 
-# Install TS Stuff
-sudo npm i -g typescript typescript-language-server
+# Install NPM Stuff
+sudo xargs npm i -g install < npmreq.txt
 
 # Install Lua Stuff
 cd
@@ -48,9 +47,6 @@ cd 3rd/luamake
 cd ../..
 ./3rd/luamake/luamake rebuild
 cd
-
-# Install Other NPM Stuff
-sudo npm i -g neovim expo nodemon yarn nativefier
 
 # Setting Up Fcitx
 echo "export GTK_IM_MODULE=fcitx5
@@ -66,15 +62,11 @@ echo "Reboot in order to take effect"
 sudo pacman -S tlp
 sudo systemctl enable tlp
 
-# Install VimPlug
-# sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
-#       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
-
 # Configure xinit
 touch .Xauthority
 mv ~/install/.xinitrc ~/.xinitrc
 
 # Reminders
-echo "Setup Insync, Rambox, Thunderbird, Discord, Firefox, Steam, Stacer, Ufw, Deja Dup & Timeshift"
+echo "Setup Thunderbird, Discord, Firefox, Steam"
 echo "Key in code for Reaper and install TeXLive"
 echo "Also install minecraft and other games"

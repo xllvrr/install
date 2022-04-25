@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# NPM Files
+npm list --global --parseable --depth=0 | sed '1d' | awk '{gsub(/\/.*\//,"",$1); print}' > ~/install/npmreq.txt
+
+# Python Files
+pip freeze > ~/install/pyreq.txt
+
+# R Files
+Rscript "./Rbackup.R"

@@ -1,0 +1,15 @@
+hooks
+corepack
+expo-cli
+nativefier
+neovim
+node-gyp
+nodemon
+nopt
+npm
+pyright
+semver
+ts-node
+typescript-language-server
+typescript
+yarn
