@@ -46,6 +46,7 @@ yay -S --sudoloop --removemake --needed \
     ripgrep \
     rofi \
     ruby \
+    scala \
     sxiv \
     texlive-core \
     thunderbird \
