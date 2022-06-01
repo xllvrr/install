@@ -21,6 +21,11 @@ git config --global diff.tool vimdiff
 git config --global merge.tool vimdiff
 git config --global difftool.prompt false
 
+# Add git global config
+git config --global user.name xllvrr
+git config --global user.email dtsa.tan@gmail.com
+git config --global color.ui auto
+
 # Change Default Shell to Zsh
 chsh -s /usr/bin/zsh
 
