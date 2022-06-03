@@ -6,6 +6,7 @@
 
 # services
 yay -S --sudoloop --removemake --needed \
+    certbot \
     cups \
     ecryptfs-utils \
     fcitx5 \
@@ -19,6 +20,7 @@ yay -S --sudoloop --removemake --needed \
     gradle \
     libtool \
     networkmanager-openvpn \
+    nginx \
     ninja \
     npm \
     numlockx \
