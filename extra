@@ -20,10 +20,10 @@ yay -S --sudoloop --removemake --needed \
     hugin \
     jdk-openjdk \
     lain-git \
+    libreoffice-fresh \
     libwacom \
     mpv \
     obs-studio-tytan652 \
-    onlyoffice-bin \
     pipewire \
     pipewire-pulse \
     pipewire-alsa \
