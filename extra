@@ -17,6 +17,7 @@ yay -S --sudoloop --removemake --needed \
     exa \
     krita \
     ufw \
+    gammastep \
     hugin \
     jdk-openjdk \
     lain-git \
@@ -32,7 +33,6 @@ yay -S --sudoloop --removemake --needed \
     reaper-bin \
     safeeyes \
     shotcut \
-    stacer \
     steam \
     wine \
     wireplumber \

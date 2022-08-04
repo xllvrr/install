@@ -33,6 +33,7 @@ yay -S --sudoloop --removemake --needed \
     tlp \
     vulkan-intel \
     vulkan-radeon \
+    xdg-desktop-portal-wlr \
     xdg-su-git \
     xdg-utils \
     yarn 
@@ -45,6 +46,7 @@ yay -S --sudoloop --removemake --needed \
     davmail \
     f2fs-tools \
     flatpak \
+    grim \
     hyphen-en \
     inxi \
     iputils \
@@ -55,6 +57,7 @@ yay -S --sudoloop --removemake --needed \
     mkinitcpio-openswap \
     netpbm \
     ntp \
+    slurp \
     syncthing \
     system-config-printer \
     tidy \
@@ -66,4 +69,6 @@ yay -S --sudoloop --removemake --needed \
     xfsprogs \
     xsel \
     xtitle \
+    wob \
+    wl-clipboard \
     wmctrl \

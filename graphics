@@ -3,12 +3,20 @@
 # window manager and desktop
 sudo pacman -S --noconfirm --needed \
     awesome \
+    sway \
+    swaybg \
+    gnome \
 
 # graphical
 sudo pacman -S --needed --noconfirm \
-    arandr \
+    wdisplays \
     gtk3 \
+    qt5 \
+    qt5-wayland \
+    qt6 \
+    qt6-wayland \
     picom \
+    wtype \
     xcompmgr \
     xdotool \
     xorg-server \
@@ -17,6 +25,7 @@ sudo pacman -S --needed --noconfirm \
     xorg-xinit \
     xorg-xkill \
     xorg-xwininfo \
+    xorg-xwayland \
     lxappearance-gtk3 \
     breeze-gtk \
     breeze-icons
