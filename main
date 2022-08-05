@@ -11,6 +11,7 @@ yay -S --sudoloop --removemake --needed \
     acpid \
     bluez-utils \
     ctags \
+    evolution \
     fzf \
     lain-git \
     maim \
@@ -51,7 +52,6 @@ yay -S --sudoloop --removemake --needed \
     scala \
     sxiv \
     texlive-core \
-    thunderbird \
     zsh \
     zsh-autosuggestions \
     zsh-syntax-highlighting \

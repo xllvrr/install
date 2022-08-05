@@ -36,7 +36,6 @@ yay -S --sudoloop --removemake --needed \
     steam \
     wine \
     wireplumber \
-    thunderbird \
     tlp \
     tcl \
     tk \
