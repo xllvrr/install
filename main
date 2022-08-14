@@ -35,7 +35,7 @@ yay -S --sudoloop --removemake --needed \
     pandoc-citeproc \
     pulsemixer \
     pavucontrol \
-    pcmanfm \
+    pcmanfm-gtk3 \
     picom \
     python-pip \
     python-pyqt5 \
