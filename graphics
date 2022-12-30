@@ -2,9 +2,6 @@
 
 # window manager and desktop
 sudo pacman -S --noconfirm --needed \
-    awesome \
-    sway \
-    swaybg \
     gnome \
 
 # graphical

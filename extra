@@ -13,11 +13,11 @@ yay -S --sudoloop --removemake --needed \
     checkbashisms \
     colorpicker \
     darktable \
+    deluge \
     dragon-drag-and-drop \
     exa \
     krita \
     ufw \
-    gammastep \
     hugin \
     jdk-openjdk \
     lain-git \
@@ -32,14 +32,12 @@ yay -S --sudoloop --removemake --needed \
     qpwgraph \
     reaper-bin \
     safeeyes \
-    shotcut \
     steam \
     wine \
     wireplumber \
     tlp \
     tcl \
     tk \
-    transmission-cli \
     xf86-input-wacom \
     zathura \
     zathura-pdf-mupdf \

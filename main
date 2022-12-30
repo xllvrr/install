@@ -12,16 +12,13 @@ yay -S --sudoloop --removemake --needed \
     bluez-utils \
     ctags \
     fzf \
-    lain-git \
     maim \
     make \
-    mako \
     man \
     man-db \
     man-pages \
     deja-dup \
     feh \
-    firefox \ 
     fuzzel \
     ipython \
     libnotify \
@@ -46,7 +43,6 @@ yay -S --sudoloop --removemake --needed \
     rdarktable-git \
     reflector \
     ripgrep \
-    rofi \
     ruby \
     scala \
     sxiv \
