@@ -43,6 +43,7 @@ yay -S --sudoloop --removemake --needed \
     rdarktable-git \
     reflector \
     ripgrep \
+    rofi \
     ruby \
     scala \
     sxiv \
