@@ -7,7 +7,7 @@ git clone --bare https://github.com/xllvrr/dotfiles.git $HOME/.dotfiles
 cd ~
 
 mkdir -p .config-backup && \
-config checkout 2>&1 | egrep "\s+\." | awk {'print $1'} | \
+config checkout 2>&1 | grep -E "\s+\." | awk {'print $1'} | \
 xargs -I{} mv {} .config-backup/{}
 
 config checkout
@@ -63,15 +63,6 @@ echo "Swappiness before patch: $(cat /proc/sys/vm/swappiness)"
 echo "vm.swappiness = 10" >> sudo /etc/sysctl.conf
 echo "Reboot in order to take effect"
 
-# Enable Services
-# sudo pacman -S tlp
-sudo systemctl enable tlp
-
 # Configure xinit
 touch .Xauthority
 mv ~/install/.xinitrc ~/.xinitrc
-
-# Reminders
-echo "Setup Thunderbird, Discord, Firefox, Steam"
-echo "Key in code for Reaper and install TeXLive"
-echo "Also install minecraft and other games"
