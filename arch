@@ -1,0 +1,211 @@
+#!/usr/bin/env sh
+
+# main packages
+yay -S --sudoloop --removemake --needed \
+    alacritty \
+    acpi \
+    acpid \
+    bluez-utils \
+    ctags \
+    fzf \
+    maim \
+    make \
+    man \
+    man-db \
+    man-pages \
+    deja-dup \
+    feh \
+    fuzzel \
+    ipython \
+    libnotify \
+    mono \
+    mlocate \
+    neovim \
+    nnn \
+    nodejs \
+    npm \
+    pandoc \
+    pandoc-citeproc \
+    pulsemixer \
+    pavucontrol \
+    pcmanfm-gtk3 \
+    picom \
+    python-pip \
+    python-pyqt5 \
+    python-pysmbc \
+    python-virtualenv \
+    qt5-tools \
+    r \
+    rdarktable-git \
+    reflector \
+    ripgrep \
+    rofi \
+    ruby \
+    scala \
+    sxiv \
+    texlive-core \
+    zsh \
+    zsh-autosuggestions \
+    zsh-syntax-highlighting \
+    zsh-you-should-use \
+    spaceship-prompt-git 
+
+# fonts
+yay -S --sudoloop --removemake --needed\
+    adobe-source-han-sans-cn-fonts \
+    adobe-source-han-sans-otc-fonts \
+    adobe-source-han-sans-tw-fonts \
+    adobe-source-han-serif-cn-fonts \
+    adobe-source-han-serif-otc-fonts \
+    adobe-source-han-serif-tw-fonts \
+    gsfonts                         \
+    nerd-fonts-noto-sans-mono       \
+    nerd-fonts-hack                 \
+    noto-fonts                      \
+    noto-fonts-emoji                \
+    otf-font-awesome                \
+    powerline-fonts                 \
+    ttf-bitstream-vera              \
+    ttf-droid                       \
+    ttf-font-awesome                \
+    ttf-inconsolata                 \
+    ttf-indic-otf                   \
+    ttf-jetbrains-mono              \
+    ttf-liberation                  \
+    ttf-ms-fonts                    \
+    ttf-vista-fonts                 
+
+pacman -Sl multilib
+
+# useful tools and other workflow packages
+yay -S --sudoloop --removemake --needed \
+    android-tools \
+    calibre \
+    checkbashisms \
+    colorpicker \
+    darktable \
+    deluge \
+    dragon-drag-and-drop \
+    exa \
+    krita \
+    ufw \
+    hugin \
+    jdk-openjdk \
+    lain-git \
+    libreoffice-fresh \
+    libwacom \
+    mpv \
+    obs-studio-tytan652 \
+    pipewire \
+    pipewire-pulse \
+    pipewire-alsa \
+    pipewire-jack \
+    qpwgraph \
+    reaper-bin \
+    safeeyes \
+    steam \
+    wine \
+    wireplumber \
+    tlp \
+    tcl \
+    tk \
+    xf86-input-wacom \
+    zathura \
+    zathura-pdf-mupdf \
+    zoom 
+
+# services
+yay -S --sudoloop --removemake --needed \
+    certbot \
+    cups \
+    ecryptfs-utils \
+    fcitx5 \
+    fcitx5-configtool \
+    fcitx5-rime \
+    fcitx5-mozc \
+    fcitx5-qt \
+    fcitx5-gtk \
+    fcitx5-material-color \
+    gcc-fortran \
+    gradle \
+    libtool \
+    networkmanager-openvpn \
+    nginx \
+    ninja \
+    npm \
+    numlockx \
+    patchutils \
+    pdftk \
+    poppler-data \
+    powertop \
+    ps-utils \
+    s-nail \
+    tlp \
+    vulkan-intel \
+    vulkan-radeon \
+    xdg-desktop-portal-wlr \
+    xdg-su-git \
+    xdg-utils \
+    yarn 
+
+# tools
+yay -S --sudoloop --removemake --needed \
+    bluez-utils \
+    bzip2 \
+    cpupower \
+    davmail \
+    f2fs-tools \
+    flatpak \
+    grim \
+    hyphen-en \
+    inxi \
+    iputils \
+    isync \
+    lib32-gnutls \
+    lynx \
+    memtest86+ \
+    mkinitcpio-openswap \
+    netpbm \
+    ntp \
+    slurp \
+    syncthing \
+    system-config-printer \
+    tidy \
+    tmux \
+    picom \
+    udiskie \
+    urlview \
+    xclip \
+    xfsprogs \
+    xsel \
+    xtitle \
+    wob \
+    wl-clipboard \
+    wmctrl \
+
+# window manager and desktop
+sudo pacman -S --noconfirm --needed \
+    gnome \
+
+# graphical
+sudo pacman -S --needed --noconfirm \
+    wdisplays \
+    gtk3 \
+    qt5 \
+    qt5-wayland \
+    qt6 \
+    qt6-wayland \
+    picom \
+    wtype \
+    xcompmgr \
+    xdotool \
+    xorg-server \
+    xorg-xbacklight \
+    xorg-xdpyinfo \
+    xorg-xinit \
+    xorg-xkill \
+    xorg-xwininfo \
+    xorg-xwayland \
+    lxappearance-gtk3 \
+    breeze-gtk \
+    breeze-icons
