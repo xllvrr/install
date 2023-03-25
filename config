@@ -30,7 +30,7 @@ git config --global color.ui auto
 chsh -s /usr/bin/zsh
 
 # Packer Sync
-nvim --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync'
+# nvim --headless -c 'autocmd User PackerComplete quitall' -c 'PackerSync'
 
 # Install Python Stuff
 sudo pip install -r pyreq.txt
@@ -64,7 +64,7 @@ echo "vm.swappiness = 10" >> sudo /etc/sysctl.conf
 echo "Reboot in order to take effect"
 
 # Enable Services
-sudo pacman -S tlp
+# sudo pacman -S tlp
 sudo systemctl enable tlp
 
 # Configure xinit
