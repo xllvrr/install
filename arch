@@ -209,3 +209,13 @@ sudo pacman -S --needed --noconfirm \
     lxappearance-gtk3 \
     breeze-gtk \
     breeze-icons
+
+# mail related
+yay -S --sudoloop --removemake --needed \
+    neomutt \
+    lynx \
+    msmtp \
+    pass \
+    pam-gnupg \
+    abook \
+    notmuch
