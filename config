@@ -3,7 +3,7 @@
 # Restoring Configurations
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 echo ".dotfiles" >> .gitignore
-git clone --bare https://github.com/xllvrr/dotfiles.git $HOME/.dotfiles
+git clone --bare git@github.com:xllvrr/dotfiles.git $HOME/.dotfiles
 cd ~
 
 mkdir -p .config-backup && \
@@ -40,18 +40,6 @@ Rscript ./R-reinstall.R
 
 # Install NPM Stuff
 sudo xargs npm i -g install < npmreq.txt
-
-# Install Lua Stuff
-cd
-cd repos
-git clone https://github.com/sumneko/lua-language-server
-cd lua-language-server
-git submodule update --init --recursive
-cd 3rd/luamake
-./compile/install.sh
-cd ../..
-./3rd/luamake/luamake rebuild
-cd
 
 # Setting Up Fcitx
 echo "export GTK_IM_MODULE=fcitx5
