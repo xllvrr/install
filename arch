@@ -1,5 +1,7 @@
 #!/usr/bin/env sh
 
+pacman -Sl multilib
+
 # main packages
 yay -S --sudoloop --removemake --needed \
     alacritty \
@@ -47,9 +49,7 @@ yay -S --sudoloop --removemake --needed \
     zsh-syntax-highlighting \
     zsh-you-should-use \
     spaceship-prompt-git 
-
 # fonts
-yay -S --sudoloop --removemake --needed\
     adobe-source-han-sans-cn-fonts \
     adobe-source-han-sans-otc-fonts \
     adobe-source-han-sans-tw-fonts \
@@ -72,11 +72,7 @@ yay -S --sudoloop --removemake --needed\
     ttf-liberation                  \
     ttf-ms-fonts                    \
     ttf-vista-fonts                 
-
-pacman -Sl multilib
-
 # useful tools and other workflow packages
-yay -S --sudoloop --removemake --needed \
     android-tools \
     calibre \
     checkbashisms \
@@ -111,9 +107,7 @@ yay -S --sudoloop --removemake --needed \
     zathura \
     zathura-pdf-mupdf \
     zoom 
-
 # services
-yay -S --sudoloop --removemake --needed \
     certbot \
     cups \
     ecryptfs-utils \
@@ -145,9 +139,7 @@ yay -S --sudoloop --removemake --needed \
     xdg-su-git \
     xdg-utils \
     yarn 
-
 # tools
-yay -S --sudoloop --removemake --needed \
     bluez-utils \
     bzip2 \
     cpupower \
@@ -180,13 +172,9 @@ yay -S --sudoloop --removemake --needed \
     wob \
     wl-clipboard \
     wmctrl \
-
 # window manager and desktop
-sudo pacman -S --noconfirm --needed \
     gnome \
-
 # graphical
-sudo pacman -S --needed --noconfirm \
     wdisplays \
     gtk3 \
     qt5 \
@@ -207,9 +195,7 @@ sudo pacman -S --needed --noconfirm \
     lxappearance-gtk3 \
     breeze-gtk \
     breeze-icons
-
 # mail related
-yay -S --sudoloop --removemake --needed \
     neomutt \
     lynx \
     msmtp \
