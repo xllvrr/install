@@ -26,8 +26,6 @@ yay -S --sudoloop --removemake --needed \
     npm \
     pandoc \
     pandoc-citeproc \
-    pulsemixer \
-    pavucontrol \
     pcmanfm-gtk3 \
     picom \
     python-pip \
