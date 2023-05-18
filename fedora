@@ -39,6 +39,9 @@ sudo dnf install /
   luajit /
   luajit2.1-luv /
   lynx /
+  man /
+  man-db /
+  man-pages /
   memtest86+ /
   mpv /
   mscore-fonts-all /
